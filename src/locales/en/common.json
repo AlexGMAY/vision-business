@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "success": "Operation successful", 
+  "learnMore": "Learn more",
+  "getStarted": "Get started",
+  "contactUs": "Contact us",
+  "readMore": "Read more",
+  "backToHome": "Back to home",
+  "allRightsReserved": "All rights reserved",
+  "privacyPolicy": "Privacy policy",
+  "termsOfService": "Terms of service",
+  "cookiePolicy": "Cookie policy"
+}

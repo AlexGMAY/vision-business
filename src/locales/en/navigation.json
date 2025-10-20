@@ -1,0 +1,15 @@
+{
+  "home": "Home",
+  "loans": "Our Loans", 
+  "howItWorks": "How it works",
+  "about": "About",
+  "contact": "Contact",
+  "applyForLoan": "Apply for loan",
+  "login": "Login",
+  "dashboard": "Dashboard",
+  "logout": "Logout",
+  "ourServices": "Our Services",
+  "forStudents": "For students",
+  "forBusinesses": "For businesses", 
+  "personalLoans": "Personal loans"
+}

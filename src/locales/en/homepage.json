@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "Bring Your Projects to Life",
+    "subtitle": "Quick, transparent loans for students, small businesses, and personal needs. Your vision is our business.",
+    "ctaPrimary": "Apply for a loan", 
+    "ctaSecondary": "Discover our solutions"
+  },
+  "features": {
+    "title": "Why Choose Vision Business?",
+    "fastApproval": {
+      "title": "Fast Approval",
+      "description": "Decision within 24-48 hours with our streamlined process."
+    },
+    "secure": {
+      "title": "Secure & Private", 
+      "description": "Your data is protected with bank-level security measures."
+    },
+    "flexible": {
+      "title": "Flexible Terms",
+      "description": "Customized repayment plans tailored to your situation."
+    }
+  },
+  "cta": {
+    "title": "Ready to Make Your Projects Happen?",
+    "description": "Join thousands of satisfied customers who have turned their dreams into reality with Vision Business.",
+    "button": "Get started now"
+  }
+}

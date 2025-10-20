@@ -1,0 +1,28 @@
+{
+  "labels": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "amount": "Montant du prêt",
+    "purpose": "Objet du prêt",
+    "message": "Message",
+    "submit": "Envoyer",
+    "cancel": "Annuler"
+  },
+  "placeholders": {
+    "firstName": "Votre prénom",
+    "lastName": "Votre nom",
+    "email": "votre@email.com",
+    "phone": "+225 00 00 00 00",
+    "amount": "Montant en FC",
+    "message": "Décrivez votre projet..."
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Adresse email invalide",
+    "invalidPhone": "Numéro de téléphone invalide",
+    "minAmount": "Le montant minimum est de {{amount}} FC",
+    "maxAmount": "Le montant maximum est de {{amount}} FC"
+  }
+}

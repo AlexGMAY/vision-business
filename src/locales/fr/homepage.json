@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "Donnez vie à vos projets",
+    "subtitle": "Prêts rapides et transparents pour étudiants, petites entreprises et besoins personnels. Votre vision est notre métier.",
+    "ctaPrimary": "Demander un prêt",
+    "ctaSecondary": "Découvrir nos solutions"
+  },
+  "features": {
+    "title": "Pourquoi choisir Vision Business ?",
+    "fastApproval": {
+      "title": "Approbation Rapide",
+      "description": "Décision sous 24-48 heures avec notre processus simplifié."
+    },
+    "secure": {
+      "title": "Sécurisé & Privé",
+      "description": "Vos données sont protégées avec des mesures de sécurité de niveau bancaire."
+    },
+    "flexible": {
+      "title": "Conditions Flexibles", 
+      "description": "Plans de remboursement personnalisés adaptés à votre situation."
+    }
+  },
+  "cta": {
+    "title": "Prêt à concrétiser vos projets ?",
+    "description": "Rejoignez des milliers de clients satisfaits qui ont transformé leurs rêves en réalité avec Vision Business.",
+    "button": "Commencer maintenant"
+  }
+}

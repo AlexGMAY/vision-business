@@ -1,0 +1,15 @@
+{
+  "welcome": "Bienvenue",
+  "loading": "Chargement...",
+  "error": "Une erreur est survenue",
+  "success": "Opération réussie",
+  "learnMore": "En savoir plus",
+  "getStarted": "Commencer",
+  "contactUs": "Nous contacter",
+  "readMore": "Lire la suite",
+  "backToHome": "Retour à l'accueil",
+  "allRightsReserved": "Tous droits réservés",
+  "privacyPolicy": "Politique de confidentialité",
+  "termsOfService": "Conditions d'utilisation",
+  "cookiePolicy": "Politique des cookies"
+}

@@ -1,0 +1,28 @@
+{
+  "labels": {
+    "firstName": "First name",
+    "lastName": "Last name", 
+    "email": "Email address",
+    "phone": "Phone number",
+    "amount": "Loan amount",
+    "purpose": "Loan purpose",
+    "message": "Message",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "placeholders": {
+    "firstName": "Your first name",
+    "lastName": "Your last name", 
+    "email": "your@email.com",
+    "phone": "+225 00 00 00 00",
+    "amount": "Amount in FCFA",
+    "message": "Describe your project..."
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "minAmount": "Minimum amount is {{amount}} FCFA",
+    "maxAmount": "Maximum amount is {{amount}} FCFA"
+  }
+}

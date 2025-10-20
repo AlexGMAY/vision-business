@@ -1,0 +1,75 @@
+{
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "introduction": "Vision Business Microfinance s'engage à protéger la confidentialité de vos informations personnelles. Cette politique explique comment nous collectons, utilisons et protégeons vos données.",
+    "dataCollection": {
+      "title": "Collecte des Données",
+      "content": "Nous collectons les informations suivantes : nom, adresse, email, téléphone, pièce d'identité, informations financières, historique de crédit, et autres données nécessaires à l'évaluation de votre demande de prêt."
+    },
+    "dataUsage": {
+      "title": "Utilisation des Données", 
+      "content": "Vos données sont utilisées pour : évaluer votre éligibilité au crédit, gérer votre compte, vous contacter, respecter nos obligations légales, et améliorer nos services."
+    },
+    "dataProtection": {
+      "title": "Protection des Données",
+      "content": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles strictes incluant le chiffrement, le contrôle d'accès, et des audits réguliers pour protéger vos données."
+    },
+    "dataRetention": {
+      "title": "Conservation des Données",
+      "content": "Nous conservons vos données aussi longtemps que nécessaire pour fournir nos services et nous conformer aux obligations légales. Les données des prêts sont conservées pendant 10 ans après la fin du contrat."
+    },
+    "yourRights": {
+      "title": "Vos Droits",
+      "content": "Vous avez le droit d'accéder à vos données, de les rectifier, de vous opposer à leur traitement, de les limiter, et de les faire supprimer dans les limites prévues par la loi."
+    }
+  },
+  "terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "introduction": "En utilisant nos services, vous acceptez les présentes conditions générales.",
+    "eligibility": {
+      "title": "Éligibilité",
+      "content": "Pour bénéficier de nos services, vous devez : être majeur, résider en Côte d'Ivoire, avoir une pièce d'identité valide, et fournir les documents requis."
+    },
+    "loanTerms": {
+      "title": "Conditions des Prêts",
+      "content": "Les montants, durées et taux d'intérêt sont déterminés selon votre profil et sont communiqués avant toute signature. Les remboursements doivent être effectués selon l'échéancier convenu."
+    },
+    "latePayments": {
+      "title": "Retards de Paiement",
+      "content": "Des pénalités de retard peuvent s'appliquer en cas de non-respect des échéances. Des frais de recouvrement peuvent être engagés en cas de défaut de paiement."
+    },
+    "termination": {
+      "title": "Résiliation",
+      "content": "Nous nous réservons le droit de suspendre ou résilier votre accès en cas de violation des conditions ou de comportement frauduleux."
+    }
+  },
+  "compliance": {
+    "title": "Conformité Réglementaire",
+    "introduction": "Vision Business Microfinance opère en conformité avec les lois et régulations ivoiriennes en matière de microfinance.",
+    "regulatory": {
+      "title": "Cadre Réglementaire",
+      "content": "Nous sommes régis par la loi n° 2013-690 du 30 décembre 2013 relative aux établissements de microfinance en Côte d'Ivoire et supervisés par la Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)."
+    },
+    "consumerProtection": {
+      "title": "Protection des Consommateurs",
+      "content": "Nous nous engageons à respecter les principes de transparence, d'équité et de responsabilité dans toutes nos relations avec nos clients."
+    },
+    "complaints": {
+      "title": "Réclamations",
+      "content": "Pour toute réclamation, contactez notre service client. En cas de litige non résolu, vous pouvez saisir l'autorité de régulation compétente."
+    }
+  },
+  "cookies": {
+    "title": "Politique des Cookies",
+    "introduction": "Notre site utilise des cookies pour améliorer votre expérience utilisateur.",
+    "types": {
+      "title": "Types de Cookies",
+      "content": "Nous utilisons des cookies essentiels au fonctionnement, des cookies d'analyse pour comprendre l'usage du site, et des cookies de préférences pour mémoriser vos choix."
+    },
+    "management": {
+      "title": "Gestion des Cookies",
+      "content": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur. La désactivation des cookies essentiels peut affecter le fonctionnement du site."
+    }
+  }
+}

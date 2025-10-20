@@ -1,0 +1,160 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String   @id @default(cuid())
+  name          String?
+  email         String   @unique
+  password      String?  // Hashed - for credentials provider
+  emailVerified DateTime?
+  image         String?
+  role          UserRole @default(CUSTOMER)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  accounts      Account[]
+  sessions      Session[]
+  customer      Customer?
+  admin         Admin?
+}
+
+model Customer {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  firstName   String
+  lastName    String
+  phone       String
+  nationalId  String   // Will be encrypted
+  address     String
+  dateOfBirth DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user        User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  applications LoanApplication[]
+  loans       Loan[]
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model LoanApplication {
+  id          String         @id @default(cuid())
+  customerId  String
+  amount      Float
+  purpose     String
+  termMonths  Int
+  status      ApplicationStatus @default(PENDING)
+  notes       String?
+  creditScore Int?           // Calculated score
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  customer    Customer       @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  loan        Loan?
+}
+
+model Loan {
+  id               String       @id @default(cuid())
+  applicationId    String       @unique
+  customerId       String
+  amount           Float
+  interestRate     Float
+  termMonths       Int
+  monthlyPayment   Float
+  totalRepayment   Float
+  status           LoanStatus   @default(ACTIVE)
+  disbursedAt      DateTime?
+  nextPaymentDate  DateTime?
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+
+  application      LoanApplication @relation(fields: [applicationId], references: [id])
+  customer         Customer        @relation(fields: [customerId], references: [id])
+  payments         Payment[]
+}
+
+model Payment {
+  id          String   @id @default(cuid())
+  loanId      String
+  amount      Float
+  dueDate     DateTime
+  paidAt      DateTime?
+  status      PaymentStatus @default(PENDING)
+  method      PaymentMethod?
+  createdAt   DateTime @default(now())
+
+  loan        Loan     @relation(fields: [loanId], references: [id], onDelete: Cascade)
+}
+
+enum UserRole {
+  CUSTOMER
+  ADMIN
+}
+
+enum ApplicationStatus {
+  PENDING
+  UNDER_REVIEW
+  APPROVED
+  REJECTED
+  WITHDRAWN
+}
+
+enum LoanStatus {
+  ACTIVE
+  PAID
+  DEFAULTED
+  DELINQUENT
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  LATE
+  MISSED
+}
+
+enum PaymentMethod {
+  BANK_TRANSFER
+  MOBILE_MONEY
+  CASH
+  CARD
+}
