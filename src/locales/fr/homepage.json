@@ -1,28 +1,156 @@
 {
   "hero": {
-    "title": "Donnez vie à vos projets",
-    "subtitle": "Prêts rapides et transparents pour étudiants, petites entreprises et besoins personnels. Votre vision est notre métier.",
+    "title": "Donnez vie",
+    "subtitle": "à vos projets", 
+    "description": "Prêts rapides et transparents pour étudiants, petites entreprises et besoins personnels. Votre vision est notre métier.",
     "ctaPrimary": "Demander un prêt",
     "ctaSecondary": "Découvrir nos solutions"
   },
-  "features": {
-    "title": "Pourquoi choisir Vision Business ?",
-    "fastApproval": {
-      "title": "Approbation Rapide",
-      "description": "Décision sous 24-48 heures avec notre processus simplifié."
-    },
-    "secure": {
-      "title": "Sécurisé & Privé",
-      "description": "Vos données sont protégées avec des mesures de sécurité de niveau bancaire."
-    },
-    "flexible": {
-      "title": "Conditions Flexibles", 
-      "description": "Plans de remboursement personnalisés adaptés à votre situation."
-    }
+  "about": {
+    "badge": "À propos de nous",
+    "title": "Notre Mission", 
+    "subtitle": "Votre Réussite",
+    "description": "Vision Business Microfinance est bien plus qu'une institution financière. Nous sommes le partenaire de confiance qui transforme vos ambitions en réalité. Fondée sur des principes d'intégrité et d'innovation, notre mission est de rendre le financement accessible à tous.",
+    "valuesTitle": "Nos Valeurs Fondamentales"
+  },
+  "trustBar": {
+    "badge": "Ils nous font confiance",
+    "title": "Des chiffres qui",
+    "subtitle": "parlent d'eux-mêmes", 
+    "description": "Notre engagement envers l'excellence se reflète dans chaque chiffre. Découvrez pourquoi des milliers de clients nous font confiance.",
+    "ctaText": "Prêt à rejoindre notre communauté de clients satisfaits ?",
+    "ctaButton": "Commencer maintenant"
+  },
+  "loans": {
+    "badge": "Nos Solutions de Financement",
+    "title": "Des prêts adaptés à",
+    "subtitle": "chaque projet", 
+    "description": "Découvrez notre gamme complète de solutions de financement conçues pour répondre à tous vos besoins, des projets personnels aux investissements d'entreprise."
+  },
+  "whyChooseUs": {
+    "badge": "Pourquoi nous choisir",
+    "title": "L'excellence dans",
+    "subtitle": "chaque détail",
+    "description": "Nous repoussons constamment les limites de l'excellence pour vous offrir une expérience de financement incomparable, où chaque détail est pensé pour votre succès.",
+    "ctaText": "Prêt à bénéficier de notre expertise ?",
+    "ctaPrimary": "Commencer maintenant",
+    "ctaSecondary": "Nous contacter"
+  },
+  "process": {
+    "badge": "Notre processus",
+    "title": "Simplicité et",
+    "subtitle": "efficacité garanties",
+    "description": "Notre processus en 4 étapes simples a été conçu pour vous offrir une expérience de financement rapide, transparente et sans stress.",
+    "ctaButton": "Commencer ma demande",
+    "ctaSubtext": "Aucun engagement • Simulation gratuite • Réponse sous 24h"
+  },
+  "testimonials": {
+    "badge": "Témoignages clients",
+    "title": "Ils nous font",
+    "subtitle": "confiance",
+    "description": "Découvrez les expériences authentiques de nos clients qui ont transformé leurs projets en réalité grâce à nos solutions de financement."
+  },  
+  "calculator": {
+    "badge": "Calculateur de prêt",
+    "title": "Simulez votre",
+    "subtitle": "prêt personnel",
+    "description": "Obtenez une estimation instantanée de vos mensualités et découvrez nos solutions de financement adaptées.",
+    "loanAmount": "Montant du prêt",
+    "loanTerm": "Durée du prêt",
+    "months": "mois",
+    "interestRate": "Taux d'intérêt annuel",
+    "checkQualification": "Vérifier mon éligibilité",
+    "qualified": "Félicitations ! Vous êtes éligible pour ce prêt.",
+    "notQualified": "Nous avons d'autres solutions pour vous. Contactez-nous pour en savoir plus.",
+    "monthlyPayment": "Mensualité",
+    "totalInterest": "Intérêts totaux",
+    "repaymentSchedule": "Calendrier de remboursement",
+    "month": "Mois",
+    "payment": "Paiement",
+    "principal": "Capital",
+    "interest": "Intérêts",
+    "applyNow": "Demander mon prêt",
+    "disclaimer": "* Simulation indicative. Offre soumise à conditions."
+  },
+  "faq": {
+    "badge": "Questions fréquentes",
+    "title": "Vous avez des",
+    "subtitle": "questions ?",
+    "description": "Retrouvez les réponses aux questions les plus fréquemment posées par nos clients. Si vous ne trouvez pas votre réponse, notre équipe est à votre écoute.",
+    "ctaText": "Vous ne trouvez pas la réponse à votre question ?",
+    "ctaPrimary": "Nous contacter",
+    "ctaSecondary": "Voir tous les prêts"
   },
   "cta": {
-    "title": "Prêt à concrétiser vos projets ?",
-    "description": "Rejoignez des milliers de clients satisfaits qui ont transformé leurs rêves en réalité avec Vision Business.",
-    "button": "Commencer maintenant"
+    "homepage": {
+      "title": "Prêt à concrétiser vos projets ?",
+      "subtitle": "Rejoignez des milliers de clients satisfaits qui ont transformé leurs rêves en réalité avec Vision Business.",
+      "primaryButton": "Demander un prêt",
+      "secondaryButton": "Nous contacter"
+    },
+    "loans": {
+      "title": "Trouvez le prêt parfait pour votre projet",
+      "subtitle": "Avec 6 solutions de financement adaptées, nous avons le prêt qu'il vous faut, quel que soit votre projet.",
+      "primaryButton": "Voir tous les prêts"
+    },
+    "contact": {
+      "title": "Besoin d'aide pour choisir ?",
+      "subtitle": "Notre équipe d'experts est à votre écoute pour vous guider vers la solution de financement la plus adaptée à votre situation.",
+      "primaryButton": "Nous contacter",
+      "secondaryButton": "Appeler maintenant"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "Vision Business",
+      "subtitle": "Microfinance",
+      "description": "Votre partenaire de confiance pour des solutions de financement accessibles et transparentes. Nous transformons vos ambitions en réalité grâce à notre expertise et notre engagement."
+    },
+    "badges": {
+      "regulated": "Réglementé BCC",
+      "secure": "Données Sécurisées"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Accueil",
+      "loans": "Nos Prêts",
+      "apply": "Obtenir un Prêt",
+      "contact": "Contact",
+      "howItWorks": "Comment ça marche"
+    },
+    "information": {
+      "title": "Informations"
+    },
+    "legal": {
+      "title": "Légal",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "compliance": "Conformité réglementaire"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Gombe, Kinshasa, RDC"
+    },
+    "newsletter": {
+      "title": "Restez informé",
+      "placeholder": "Votre email",
+      "button": "S'abonner",
+      "sending": "Envoi...",
+      "success": "✅ Merci ! Vous êtes maintenant abonné à notre newsletter.",
+      "invalidEmail": "Veuillez entrer une adresse email valide",
+      "description": "Recevez les dernières actualités et offres exclusives de Vision Business."
+    },
+    "social": {
+      "follow": "Suivez-nous"
+    },
+    "copyright": {
+      "company": "Vision Business Microfinance",
+      "rights": "Tous droits réservés.",
+      "country": "République Démocratique du Congo"
+    },
+    "security": {
+      "ssl": "Sécurisé SSL",
+      "encrypted": "Données cryptées"
+    }
   }
 }

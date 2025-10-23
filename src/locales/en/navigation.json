@@ -1,15 +1,10 @@
-{
-  "home": "Home",
-  "loans": "Our Loans", 
-  "howItWorks": "How it works",
-  "about": "About",
-  "contact": "Contact",
-  "applyForLoan": "Apply for loan",
-  "login": "Login",
-  "dashboard": "Dashboard",
-  "logout": "Logout",
-  "ourServices": "Our Services",
-  "forStudents": "For students",
-  "forBusinesses": "For businesses", 
-  "personalLoans": "Personal loans"
+{ 
+  "microfinance": "Microfinance",
+    "loans": "Our Loans",
+    "howItWorks": "How It Works",
+    "getLoan": "Get a Loan",
+    "contact": "Contact",
+    "applyForLoan": "Apply for Loan",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
 }

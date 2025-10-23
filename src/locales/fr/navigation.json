@@ -1,15 +1,11 @@
 {
-  "home": "Accueil",
-  "loans": "Nos Prêts",
-  "howItWorks": "Comment ça marche",
-  "about": "À propos",
-  "contact": "Contact",
-  "applyForLoan": "Demander un prêt",
-  "login": "Connexion",
-  "dashboard": "Tableau de bord",
-  "logout": "Déconnexion",
-  "ourServices": "Nos Services",
-  "forStudents": "Pour les étudiants",
-  "forBusinesses": "Pour les entreprises",
-  "personalLoans": "Prêts personnels"
+  "microfinance": "Microfinance",
+    "loans": "Nos Prêts",
+    "howItWorks": "Comment ça marche",
+    "getLoan": "Obtenir un prêt",
+    "contact": "Contact",
+    "applyForLoan": "Demander un Prêt",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre"
+  
 }

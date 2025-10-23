@@ -1,28 +1,156 @@
 {
   "hero": {
-    "title": "Bring Your Projects to Life",
-    "subtitle": "Quick, transparent loans for students, small businesses, and personal needs. Your vision is our business.",
-    "ctaPrimary": "Apply for a loan", 
+    "title": "Bring life", 
+    "subtitle": "to your projects",
+    "description": "Quick, transparent loans for students, small businesses, and personal needs. Your vision is our business.",
+    "ctaPrimary": "Apply for a loan",
     "ctaSecondary": "Discover our solutions"
   },
-  "features": {
-    "title": "Why Choose Vision Business?",
-    "fastApproval": {
-      "title": "Fast Approval",
-      "description": "Decision within 24-48 hours with our streamlined process."
-    },
-    "secure": {
-      "title": "Secure & Private", 
-      "description": "Your data is protected with bank-level security measures."
-    },
-    "flexible": {
-      "title": "Flexible Terms",
-      "description": "Customized repayment plans tailored to your situation."
-    }
+  "about": {
+    "badge": "About us",
+    "title": "Our Mission",
+    "subtitle": "Your Success", 
+    "description": "Vision Business Microfinance is more than just a financial institution. We are the trusted partner that turns your ambitions into reality. Founded on principles of integrity and innovation, our mission is to make financing accessible to everyone.",
+    "valuesTitle": "Our Core Values"
+  },
+  "trustBar": {
+    "badge": "Trusted by many",
+    "title": "Numbers that",
+    "subtitle": "speak for themselves",
+    "description": "Our commitment to excellence is reflected in every number. Discover why thousands of customers trust us.",
+    "ctaText": "Ready to join our community of satisfied customers?",
+    "ctaButton": "Get started now"
+  },
+  "loans": {
+    "badge": "Our Financing Solutions",
+    "title": "Loans tailored for",
+    "subtitle": "every project",
+    "description": "Discover our complete range of financing solutions designed to meet all your needs, from personal projects to business investments."
+  },
+  "whyChooseUs": {
+    "badge": "Why choose us",
+    "title": "Excellence in",
+    "subtitle": "every detail",
+    "description": "We constantly push the boundaries of excellence to provide you with an unparalleled financing experience, where every detail is designed for your success.",
+    "ctaText": "Ready to benefit from our expertise?",
+    "ctaPrimary": "Get started now",
+    "ctaSecondary": "Contact us"
+  },
+  "process": {
+    "badge": "Our process",
+    "title": "Simplicity and",
+    "subtitle": "guaranteed efficiency",
+    "description": "Our 4-step simple process has been designed to provide you with a fast, transparent and stress-free financing experience.",
+    "ctaButton": "Start my application",
+    "ctaSubtext": "No commitment • Free simulation • Response within 24h"
+  },
+   "testimonials": {
+    "badge": "Customer testimonials",
+    "title": "They trust",
+    "subtitle": "us",
+    "description": "Discover the authentic experiences of our customers who have turned their projects into reality thanks to our financing solutions."
+  },
+  "calculator": {
+    "badge": "Loan Calculator",
+    "title": "Calculate Your",
+    "subtitle": "Personal Loan",
+    "description": "Get an instant estimate of your monthly payments and discover our tailored financing solutions.",
+    "loanAmount": "Loan Amount",
+    "loanTerm": "Loan Term",
+    "months": "months",
+    "interestRate": "Annual Interest Rate",
+    "checkQualification": "See if you qualify",
+    "qualified": "Congratulations! You're eligible for this loan.",
+    "notQualified": "We have other solutions for you. Contact us to learn more.",
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "repaymentSchedule": "Repayment Schedule",
+    "month": "Month",
+    "payment": "Payment",
+    "principal": "Principal",
+    "interest": "Interest",
+    "applyNow": "Apply Now",
+    "disclaimer": "* Indicative simulation. Offer subject to conditions."
+  },
+  "faq": {
+    "badge": "Frequently asked questions",
+    "title": "Have some",
+    "subtitle": "questions?",
+    "description": "Find answers to the most frequently asked questions from our customers. If you don't find your answer, our team is here to help.",
+    "ctaText": "Can't find the answer to your question?",
+    "ctaPrimary": "Contact us",
+    "ctaSecondary": "View all loans"
   },
   "cta": {
-    "title": "Ready to Make Your Projects Happen?",
-    "description": "Join thousands of satisfied customers who have turned their dreams into reality with Vision Business.",
-    "button": "Get started now"
+    "homepage": {
+      "title": "Ready to make your projects happen?",
+      "subtitle": "Join thousands of satisfied customers who have turned their dreams into reality with Vision Business.",
+      "primaryButton": "Apply for a loan",
+      "secondaryButton": "Contact us"
+    },
+    "loans": {
+      "title": "Find the perfect loan for your project",
+      "subtitle": "With 6 tailored financing solutions, we have the loan you need, whatever your project.",
+      "primaryButton": "View all loans"
+    },
+    "contact": {
+      "title": "Need help choosing?",
+      "subtitle": "Our team of experts is here to guide you to the financing solution best suited to your situation.",
+      "primaryButton": "Contact us",
+      "secondaryButton": "Call now"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "Vision Business",
+      "subtitle": "Microfinance",
+      "description": "Your trusted partner for accessible and transparent financing solutions. We transform your ambitions into reality through our expertise and commitment."
+    },
+    "badges": {
+      "regulated": "Regulated BCC",
+      "secure": "Secure Data"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "loans": "Our Loans",
+      "apply": "Get a Loan",
+      "contact": "Contact",
+      "howItWorks": "How It Works"
+    },
+    "information": {
+      "title": "Information"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "compliance": "Regulatory Compliance"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Gombe, Kinshasa, DRC"
+    },
+    "newsletter": {
+      "title": "Stay Informed",
+      "placeholder": "Your email",
+      "button": "Subscribe",
+      "sending": "Sending...",
+      "success": "✅ Thank you! You are now subscribed to our newsletter.",
+      "invalidEmail": "Please enter a valid email address",
+      "description": "Receive the latest news and exclusive offers from Vision Business."
+    },
+    "social": {
+      "follow": "Follow Us"
+    },
+    "copyright": {
+      "company": "Vision Business Microfinance",
+      "rights": "All rights reserved.",
+      "country": "Democratic Republic of Congo"
+    },
+    "security": {
+      "ssl": "SSL Secured",
+      "encrypted": "Encrypted Data"
+    }
   }
 }

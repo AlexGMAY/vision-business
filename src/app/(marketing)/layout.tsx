@@ -1,5 +1,6 @@
 import { Navigation } from '@/components/marketing/Navigation'
 import { Footer } from '@/components/marketing/Footer'
+import { ScrollToTopWithProgress } from '@/components/shared/ScrollToTopWithProgress'
 
 export default function MarketingLayout({
   children,
@@ -12,7 +13,8 @@ export default function MarketingLayout({
       <main className="flex-1">
         {children}
       </main>
-      <Footer />
+      <ScrollToTopWithProgress />
+      <Footer />      
     </div>
   )
 }
