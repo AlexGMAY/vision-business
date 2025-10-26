@@ -1,0 +1,61 @@
+{
+  "contact": {
+    "title": "Parlons de Votre Projet",
+    "subtitle": "Notre équipe d'experts est prête à vous accompagner dans la réalisation de vos ambitions entrepreneuriales en RDC.",
+    "info": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse", 
+      "hours": "Lundi - Vendredi, 8h - 18h\nSamedi: 9h - 13h",
+      "responseTime": "Réponse sous 24 heures",
+      "appointment": "Sur rendez-vous"
+    },
+    "social": {
+      "title": "Suivez-Nous"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "subtitle": "Nous vous répondons dans les plus brefs délais",
+      "fullName": "Nom Complet",
+      "phone": "Téléphone",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "namePlaceholder": "Votre nom complet",
+      "phonePlaceholder": "+243 00 000 0000", 
+      "emailPlaceholder": "votre@email.com",
+      "subjectPlaceholder": "Choisir un sujet",
+      "messagePlaceholder": "Décrivez votre projet ou votre question...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès ! Nous vous contacterons rapidement.",
+      "successDetails": "Nous vous avons envoyé un email de confirmation. Nous vous contacterons rapidement."
+    },
+    "subjects": {
+      "loanRequest": "Demande de prêt",
+      "information": "Information",
+      "complaint": "Réclamation",
+      "partnership": "Partenariat", 
+      "career": "Carrière",
+      "other": "Autre"
+    },
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "phoneRequired": "Le téléphone est requis",
+      "phoneInvalid": "Numéro de téléphone invalide",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Email invalide",
+      "subjectRequired": "Veuillez choisir un sujet",
+      "messageRequired": "Le message est requis",
+      "messageTooShort": "Le message doit contenir au moins 10 caractères"
+    },
+    "map": {
+      "title": "Notre Localisation",
+      "subtitle": "Venez nous rencontrer dans nos bureaux au cœur de Gombe, Kinshasa",
+      "directions": "Au cœur du quartier d'affaires de Gombe",
+      "hours": "Horaires d'Ouverture",
+      "parking": "Parking",
+      "accessibility": "Accessibilité"
+    }
+  }
+}

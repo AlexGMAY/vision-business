@@ -1,0 +1,61 @@
+{
+  "contact": {
+    "title": "Let's Talk About Your Project",
+    "subtitle": "Our team of experts is ready to support you in achieving your entrepreneurial ambitions in DRC.",
+    "info": {
+      "phone": "Phone",
+      "email": "Email", 
+      "address": "Address",
+      "hours": "Monday - Friday, 8am - 6pm\nSaturday: 9am - 1pm",
+      "responseTime": "Response within 24 hours",
+      "appointment": "By appointment"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "We'll get back to you as soon as possible",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "namePlaceholder": "Your full name",
+      "phonePlaceholder": "+243 00 000 0000",
+      "emailPlaceholder": "your@email.com",
+      "subjectPlaceholder": "Choose a subject",
+      "messagePlaceholder": "Describe your project or question...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll contact you shortly.",
+      "successDetails": "We've sent you a confirmation email. We'll contact you shortly."
+    },
+    "subjects": {
+      "loanRequest": "Loan Request",
+      "information": "Information",
+      "complaint": "Complaint", 
+      "partnership": "Partnership",
+      "career": "Career",
+      "other": "Other"
+    },
+    "errors": {
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone is required",
+      "phoneInvalid": "Invalid phone number",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "subjectRequired": "Please choose a subject",
+      "messageRequired": "Message is required",
+      "messageTooShort": "Message must be at least 10 characters"
+    },
+    "map": {
+      "title": "Our Location", 
+      "subtitle": "Come meet us in our offices in the heart of Gombe, Kinshasa",
+      "directions": "In the heart of Gombe business district",
+      "hours": "Opening Hours",
+      "parking": "Parking",
+      "accessibility": "Accessibility"
+    }
+  }
+}

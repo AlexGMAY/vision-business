@@ -1,0 +1,66 @@
+{
+  "about": {
+    "csr": {
+      "badge": "Social Impact",
+      "title": "Corporate Social Responsibility",
+      "description": "We believe financial success should benefit the entire community",
+      "impactTitle": "Our Community Impact",
+      "impactText": "Every loan granted represents an opportunity to create jobs, stimulate the local economy, and build a better future for our communities. We measure our success not only in numbers but also in transformed lives."
+    },
+    "culture": {
+      "badge": "Our Culture",
+      "title": "Company Culture",
+      "description": "An environment where passion, innovation, and well-being meet",
+      "testimonialsTitle": "Team Testimonials",
+      "testimonialsDescription": "What our team members say about their experience"
+    },
+    "certifications": {
+      "badge": "Compliance & Certifications",
+      "title": "Certifications & Compliance",
+      "description": "Our commitment to excellence, security, and regulatory compliance",
+      "complianceTitle": "Compliance Areas",
+      "complianceDescription": "Our commitment to the highest standards",
+      "trustTitle": "Your Trust, Our Priority",
+      "trustText": "All our certifications and our commitment to compliance aim for one goal: to earn and preserve your trust. We maintain the highest standards to ensure the security of your data and the transparency of our services."
+    },
+    "leadership": {
+      "badge": "Our Team",
+      "title": "Meet Our Team",
+      "description": "Passionate experts dedicated to your financial success",
+      "statsTitle": "Our Collective Strength",
+      "experience": "Years of experience",
+      "departments": "Departments",
+      "satisfaction": "Client satisfaction",
+      "support": "Support available"
+    },
+    "achievements": {
+      "badge": "Our Achievements",
+      "title": "Numbers & Recognition",
+      "description": "Concrete results that demonstrate our commitment to your success",
+      "awardsTitle": "Awards & Recognition",
+      "awardsDescription": "Our excellence recognized by the industry"
+    },
+    "cta": {
+      "title": "Join Our Mission",
+      "subtitle": "Become a partner of Vision Business and help transform entrepreneurship in Africa",
+      "primaryButton": "Contact Us",
+      "secondaryButton": "View Loans"
+    },
+    "story": {
+      "badge": "Our Journey",
+      "title": "Our Story",
+      "description": "Discover how Vision Business became a microfinance leader in Africa",
+      "foundingTitle": "Our Founding Mission",
+      "foundingText": "Vision Business was born from the conviction that every entrepreneur deserves a chance to succeed. Our founder, after observing the difficulties small businesses face in accessing financing, created an institution that combines technological innovation and financial expertise to democratize access to capital."
+    },
+    "mission": {
+      "badge": "Our Principles",
+      "title": "Mission & Values",
+      "description": "The principles that guide every decision and action at Vision Business",
+      "missionTitle": "Our Mission",
+      "missionText": "To empower entrepreneurs and small businesses with the financial means and tools needed to reach their full potential, by offering accessible, transparent, and innovative financing solutions.",
+      "philosophyTitle": "Our Philosophy",
+      "philosophyText": "We believe that the success of entrepreneurs is key to economic development. By combining financial expertise and technological innovation, we create an ecosystem where every business vision can become reality."
+    }
+  }
+}

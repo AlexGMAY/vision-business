@@ -475,3 +475,61 @@ export const ContactCta: React.FC = () => {
     />
   );
 };
+
+export const AboutCta: React.FC = () => {
+  const { t } = useTranslation();
+
+  return (
+    <Cta
+      title={t('about', 'about.cta.title') || "Rejoignez Notre Mission"}
+      subtitle={t('about', 'cta.subtitle') || "Devenez partenaire de Vision Business et contribuez à transformer l'entrepreneuriat en Afrique"}
+      primaryButton={{
+        text: t('about', 'about.cta.primaryButton') || "Nous Contacter",
+        href: "/contact",
+        icon: "🤝"
+      }}
+      secondaryButton={{
+        text: t('about', 'about.cta.secondaryButton') || "Voir nos prêts",
+        href: "/prets"
+      }}
+      variant="featured"
+      size="lg"
+      alignment="center"
+      stats={[
+        { value: "80+", label: "Clients Servis" },
+        { value: "98%", label: "Satisfaction" },
+        { value: "2M+", label: "FC Débloqués" },
+        { value: "5+", label: "Ans d'Expérience" }
+      ]}
+    />
+  );
+};
+
+export const ContactUsCta: React.FC = () => {
+  const { t } = useTranslation();
+
+  return (
+    <Cta
+      title={t('contact', 'cta.title') || "Prêt à Transformer Votre Projet ?"}
+      subtitle={t('contact', 'cta.subtitle') || "Prenez rendez-vous avec nos conseillers pour une étude personnalisée de votre dossier."}
+      primaryButton={{
+        text: t('contact', 'cta.primaryButton') || "Prendre Rendez-vous",
+        href: "/application",
+        icon: "📅"
+      }}
+      secondaryButton={{
+        text: t('contact', 'cta.secondaryButton') || "Nous Appeler",
+        href: "tel:+243859856525"
+      }}
+      variant="gradient"
+      size="lg"
+      alignment="center"
+      stats={[
+        { value: "24h", label: "Réponse Garantie" },
+        { value: "98%", label: "Clients Satisfaits" },
+        { value: "5+", label: "Ans d'Expertise" },
+        { value: "80+", label: "Projets Financés" }
+      ]}
+    />
+  );
+};

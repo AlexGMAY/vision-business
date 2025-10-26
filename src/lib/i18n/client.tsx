@@ -103,7 +103,9 @@ export function TranslationsProvider({ children }: { children: React.ReactNode }
           import(`@/locales/fr/navigation.json`),
           import(`@/locales/fr/homepage.json`),
           import(`@/locales/fr/forms.json`),
-          import(`@/locales/fr/legal.json`)
+          import(`@/locales/fr/legal.json`),
+          import(`@/locales/fr/about.json`),
+          import(`@/locales/fr/contact.json`)
         ]);
         
         setTranslations({
@@ -111,7 +113,9 @@ export function TranslationsProvider({ children }: { children: React.ReactNode }
           navigation: modules[1].default,
           homepage: modules[2].default,
           forms: modules[3].default,
-          legal: modules[4].default
+          legal: modules[4].default,
+          about: modules[5].default,
+          contact: modules[6].default,
         });
       } catch (error) {
         console.error('Translation loading error:', error);

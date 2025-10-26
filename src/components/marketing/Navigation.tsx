@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import { useDarkMode } from '../shared/DarkModeProvider'
 import { LanguageSwitcher } from '../shared/LanguageSwitcher'
 import { useTranslation } from '@/lib/i18n/client'
@@ -9,6 +10,7 @@ import { useTranslation } from '@/lib/i18n/client'
 export function Navigation() {
   const { isDark, toggleDarkMode } = useDarkMode()
   const { t } = useTranslation()
+  const pathname = usePathname()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const navigationItems = [
@@ -18,6 +20,14 @@ export function Navigation() {
     { href: "/application", key: "getLoan" },
     { href: "/contact", key: "contact" }
   ]
+
+  // Function to check if a link is active
+  const isActiveLink = (href: string) => {
+    if (href === '/') {
+      return pathname === '/'
+    }
+    return pathname.startsWith(href)
+  }
 
   return (
     <nav className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
@@ -45,16 +55,25 @@ export function Navigation() {
 
           {/* Desktop Navigation Links */}
           <div className="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-1 justify-center">            
-            {navigationItems.map((item) => (
-              <Link 
-                key={item.key}
-                href={item.href} 
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium relative group text-sm xl:text-base"
-              >
-                {t('navigation', item.key) || item.key}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-            ))}
+            {navigationItems.map((item) => {
+              const isActive = isActiveLink(item.href)
+              return (
+                <Link 
+                  key={item.key}
+                  href={item.href} 
+                  className={`transition-colors font-medium relative group text-sm xl:text-base ${
+                    isActive
+                      ? 'text-blue-600 dark:text-blue-400 font-semibold'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+                  }`}
+                >
+                  {t('navigation', item.key) || item.key}
+                  <span className={`absolute -bottom-1 left-0 h-0.5 bg-blue-600 transition-all duration-300 ${
+                    isActive ? 'w-full' : 'w-0 group-hover:w-full'
+                  }`} />
+                </Link>
+              )
+            })}
           </div>
 
           {/* Right Side Controls - Desktop */}
@@ -113,16 +132,23 @@ export function Navigation() {
           isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}>
           <div className="py-4 space-y-4 border-t border-gray-200 dark:border-gray-700">
-            {navigationItems.map((item) => (
-              <Link 
-                key={item.key}
-                href={item.href} 
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium py-2 text-lg"
-              >
-                {t('navigation', item.key) || item.key}
-              </Link>
-            ))}
+            {navigationItems.map((item) => {
+              const isActive = isActiveLink(item.href)
+              return (
+                <Link 
+                  key={item.key}
+                  href={item.href} 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`block transition-colors font-medium py-2 text-lg ${
+                    isActive
+                      ? 'text-blue-600 dark:text-blue-400 font-semibold'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+                  }`}
+                >
+                  {t('navigation', item.key) || item.key}
+                </Link>
+              )
+            })}
             
             {/* Mobile CTA Button */}
             <Link 

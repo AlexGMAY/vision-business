@@ -14,7 +14,7 @@ interface InternalHeroProps {
 export function InternalHero({ 
   title, 
   subtitle, 
-  backgroundImage = '/images/hero-bg.jpg',
+  backgroundImage = '/images/enterprise-interior.jpg',
   overlay = true,
   ctaText,
   ctaLink 
