@@ -107,20 +107,20 @@ export function LeadershipTeam() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'leadership.badge') || "Notre Équipe"}
+              {t('about', 'about.leadership.badge') || "Notre Équipe"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'leadership.title') || "Rencontrez Notre Équipe"}
+            {t('about', 'about.leadership.title') || "Rencontrez Notre Équipe"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'leadership.description') || "Des experts passionnés dédiés à votre réussite financière"}
+            {t('about', 'about.leadership.description') || "Des experts passionnés dédiés à votre réussite financière"}
           </p>
         </motion.div>
 
@@ -229,7 +229,7 @@ export function LeadershipTeam() {
               <h3 className={`text-2xl font-bold mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                {t('about', 'leadership.statsTitle') || "Notre Force Collective"}
+                {t('about', 'about.leadership.statsTitle') || "Notre Force Collective"}
               </h3>
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -242,7 +242,7 @@ export function LeadershipTeam() {
                   <div className={`text-sm ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
-                    {t('about', 'leadership.experience') || "Ans d'expérience"}
+                    {t('about', 'about.leadership.experience') || "Ans d'expérience"}
                   </div>
                 </div>
                 
@@ -255,7 +255,7 @@ export function LeadershipTeam() {
                   <div className={`text-sm ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
-                    {t('about', 'leadership.departments') || "Départements"}
+                    {t('about', 'about.leadership.departments') || "Départements"}
                   </div>
                 </div>
                 
@@ -268,7 +268,7 @@ export function LeadershipTeam() {
                   <div className={`text-sm ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
-                    {t('about', 'leadership.satisfaction') || "Satisfaction client"}
+                    {t('about', 'about.leadership.satisfaction') || "Satisfaction client"}
                   </div>
                 </div>
                 
@@ -281,7 +281,7 @@ export function LeadershipTeam() {
                   <div className={`text-sm ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>
-                    {t('about', 'leadership.support') || "Support disponible"}
+                    {t('about', 'about.leadership.support') || "Support disponible"}
                   </div>
                 </div>
               </div>

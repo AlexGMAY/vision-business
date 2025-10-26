@@ -21,12 +21,12 @@ export function ContactMap() {
           <h2 className={`text-3xl md:text-4xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('contact', 'map.title') || "Notre Localisation"}
+            {t('contact', 'contact.map.title') || "Notre Localisation"}
           </h2>
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('contact', 'map.subtitle') || "Venez nous rencontrer dans nos bureaux au cœur de Gombe, Kinshasa"}
+            {t('contact', 'contact.map.subtitle') || "Venez nous rencontrer dans nos bureaux au cœur de Gombe, Kinshasa"}
           </p>
         </motion.div>
 
@@ -72,7 +72,7 @@ export function ContactMap() {
                 <div className={`text-xs ${
                   isDark ? 'text-gray-400' : 'text-gray-500'
                 }`}>
-                  📍 {t('contact', 'map.directions') || "Au cœur du quartier d'affaires de Gombe"}
+                  📍 {t('contact', 'contact.map.directions') || "Au cœur du quartier d'affaires de Gombe"}
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export function ContactMap() {
                 <h4 className={`font-semibold mb-2 ${
                   isDark ? 'text-white' : 'text-gray-900'
                 }`}>
-                  {t('contact', `map.${item.title}`) || item.title}
+                  {t('contact', `contact.map.${item.title}`) || item.title}
                 </h4>
                 <p className={`text-sm whitespace-pre-line ${
                   isDark ? 'text-gray-400' : 'text-gray-600'

@@ -123,20 +123,20 @@ export function Achievements() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'achievements.badge') || "Nos Réalisations"}
+              {t('about', 'about.achievements.badge') || "Nos Réalisations"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'achievements.title') || "Chiffres & Reconnaissances"}
+            {t('about', 'about.achievements.title') || "Chiffres & Reconnaissances"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'achievements.description') || "Des résultats concrets qui témoignent de notre engagement envers votre réussite"}
+            {t('about', 'about.achievements.description') || "Des résultats concrets qui témoignent de notre engagement envers votre réussite"}
           </p>
         </motion.div>
 
@@ -191,12 +191,12 @@ export function Achievements() {
             <h3 className={`text-2xl md:text-3xl font-bold mb-4 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('about', 'achievements.awardsTitle') || "Prix & Reconnaissances"}
+              {t('about', 'about.achievements.awardsTitle') || "Prix & Reconnaissances"}
             </h3>
             <p className={`text-lg ${
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              {t('about', 'achievements.awardsDescription') || "Notre excellence reconnue par l'industrie"}
+              {t('about', 'about.achievements.awardsDescription') || "Notre excellence reconnue par l'industrie"}
             </p>
           </div>
 

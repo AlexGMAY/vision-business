@@ -111,20 +111,20 @@ export function CertificationsCompliance() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'certifications.badge') || "Conformité & Certifications"}
+              {t('about', 'about.certifications.badge') || "Conformité & Certifications"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'certifications.title') || "Certifications & Conformité"}
+            {t('about', 'about.certifications.title') || "Certifications & Conformité"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'certifications.description') || "Notre engagement envers l'excellence, la sécurité et la conformité réglementaire"}
+            {t('about', 'about.certifications.description') || "Notre engagement envers l'excellence, la sécurité et la conformité réglementaire"}
           </p>
         </motion.div>
 
@@ -188,12 +188,12 @@ export function CertificationsCompliance() {
             <h3 className={`text-2xl md:text-3xl font-bold mb-4 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('about', 'certifications.complianceTitle') || "Domaines de Conformité"}
+              {t('about', 'about.certifications.complianceTitle') || "Domaines de Conformité"}
             </h3>
             <p className={`text-lg ${
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              {t('about', 'certifications.complianceDescription') || "Notre engagement envers les normes les plus strictes"}
+              {t('about', 'about.certifications.complianceDescription') || "Notre engagement envers les normes les plus strictes"}
             </p>
           </div>
 
@@ -245,12 +245,12 @@ export function CertificationsCompliance() {
             <h3 className={`text-2xl font-bold mb-4 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('about', 'certifications.trustTitle') || "Votre Confiance, Notre Priorité"}
+              {t('about', 'about.certifications.trustTitle') || "Votre Confiance, Notre Priorité"}
             </h3>
             <p className={`text-lg leading-relaxed ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'certifications.trustText') || "Toutes nos certifications et notre engagement envers la conformité visent un seul objectif : mériter et préserver votre confiance. Nous maintenons les normes les plus élevées pour garantir la sécurité de vos données et la transparence de nos services."}
+              {t('about', 'about.certifications.trustText') || "Toutes nos certifications et notre engagement envers la conformité visent un seul objectif : mériter et préserver votre confiance. Nous maintenons les normes les plus élevées pour garantir la sécurité de vos données et la transparence de nos services."}
             </p>
           </div>
         </motion.div>

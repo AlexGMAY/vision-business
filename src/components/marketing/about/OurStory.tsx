@@ -69,20 +69,20 @@ export function OurStory() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'story.badge') || "Notre Parcours"}
+              {t('about', 'about.story.badge') || "Notre Parcours"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'story.title') || "Notre Histoire"}
+            {t('about', 'about.story.title') || "Notre Histoire"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'story.description') || "Découvrez comment Vision Business est devenu un leader de la microfinance en Afrique"}
+            {t('about', 'about.story.description') || "Découvrez comment Vision Business est en train de devenir un leader de la microfinance en RD Congo"}
           </p>
         </motion.div>
 
@@ -214,12 +214,12 @@ export function OurStory() {
               <h3 className={`text-2xl font-bold mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                {t('about', 'story.foundingTitle') || "Notre Mission Fondatrice"}
+                {t('about', 'about.story.foundingTitle') || "Notre Mission Fondatrice"}
               </h3>
               <p className={`text-lg leading-relaxed ${
                 isDark ? 'text-gray-300' : 'text-gray-700'
               }`}>
-                {t('about', 'story.foundingText') || "Vision Business est né de la conviction que chaque entrepreneur mérite une chance de réussir. Notre fondateur, après avoir constaté les difficultés d'accès au financement pour les petites entreprises, a créé une institution qui combine innovation technologique et expertise financière pour démocratiser l'accès au capital."}
+                {t('about', 'about.story.foundingText') || "Vision Business est né de la conviction que chaque entrepreneur mérite une chance de réussir. Notre fondateur, après avoir constaté les difficultés d'accès au financement pour les petites entreprises, a créé une institution qui combine innovation technologique et expertise financière pour démocratiser l'accès au capital."}
               </p>
             </div>
           </div>

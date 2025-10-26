@@ -446,7 +446,7 @@ export const LoansCta: React.FC = () => {
         text: t('homepage', 'cta.loans.primaryButton') || "Voir tous les prêts",
         href: "/prets"
       }}
-      variant="featured"
+      variant="gradient"
       size="lg"
       alignment="center"
     />
@@ -469,9 +469,15 @@ export const ContactCta: React.FC = () => {
         text: t('homepage', 'cta.contact.secondaryButton') || "Appeler maintenant",
         href: "tel:+243859856525"
       }}
-      variant="minimal"
-      size="md"
+      variant="gradient"
+      size="lg"
       alignment="center"
+      stats={[
+        { value: "80+", label: "Clients Servis" },
+        { value: "98%", label: "Satisfaction" },
+        { value: "2M+", label: "FC Débloqués" },
+        { value: "5+", label: "Ans d'Expérience" }
+      ]}
     />
   );
 };
@@ -482,7 +488,7 @@ export const AboutCta: React.FC = () => {
   return (
     <Cta
       title={t('about', 'about.cta.title') || "Rejoignez Notre Mission"}
-      subtitle={t('about', 'cta.subtitle') || "Devenez partenaire de Vision Business et contribuez à transformer l'entrepreneuriat en Afrique"}
+      subtitle={t('about', 'about.cta.subtitle') || "Devenez partenaire de Vision Business et contribuez à transformer l'entrepreneuriat en Afrique"}
       primaryButton={{
         text: t('about', 'about.cta.primaryButton') || "Nous Contacter",
         href: "/contact",
@@ -492,7 +498,7 @@ export const AboutCta: React.FC = () => {
         text: t('about', 'about.cta.secondaryButton') || "Voir nos prêts",
         href: "/prets"
       }}
-      variant="featured"
+      variant="gradient"
       size="lg"
       alignment="center"
       stats={[
@@ -510,15 +516,15 @@ export const ContactUsCta: React.FC = () => {
 
   return (
     <Cta
-      title={t('contact', 'cta.title') || "Prêt à Transformer Votre Projet ?"}
-      subtitle={t('contact', 'cta.subtitle') || "Prenez rendez-vous avec nos conseillers pour une étude personnalisée de votre dossier."}
+      title={t('contact', 'contact.cta.title') || "Prêt à Transformer Votre Projet ?"}
+      subtitle={t('contact', 'contact.cta.subtitle') || "Prenez rendez-vous avec nos conseillers pour une étude personnalisée de votre dossier."}
       primaryButton={{
-        text: t('contact', 'cta.primaryButton') || "Prendre Rendez-vous",
+        text: t('contact', 'contact.cta.primaryButton') || "Prendre Rendez-vous",
         href: "/application",
         icon: "📅"
       }}
       secondaryButton={{
-        text: t('contact', 'cta.secondaryButton') || "Nous Appeler",
+        text: t('contact', 'contact.cta.secondaryButton') || "Appeler Maintenant",
         href: "tel:+243859856525"
       }}
       variant="gradient"

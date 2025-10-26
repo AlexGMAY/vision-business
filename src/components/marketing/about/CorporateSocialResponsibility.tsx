@@ -66,20 +66,20 @@ export function CorporateSocialResponsibility() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'csr.badge') || "Impact Social"}
+              {t('about', 'about.csr.badge') || "Impact Social"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'csr.title') || "Responsabilité Sociale"}
+            {t('about', 'about.csr.title') || "Responsabilité Sociale"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'csr.description') || "Nous croyons que le succès financier doit bénéficier à toute la communauté"}
+            {t('about', 'about.csr.description') || "Nous croyons que le succès financier doit bénéficier à toute la communauté"}
           </p>
         </motion.div>
 
@@ -147,12 +147,12 @@ export function CorporateSocialResponsibility() {
             <h3 className={`text-2xl font-bold mb-4 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('about', 'csr.impactTitle') || "Notre Impact Communautaire"}
+              {t('about', 'about.csr.impactTitle') || "Notre Impact Communautaire"}
             </h3>
             <p className={`text-lg leading-relaxed ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'csr.impactText') || "Chaque prêt accordé représente une opportunité de créer des emplois, de stimuler l'économie locale et de construire un avenir meilleur pour nos communautés. Nous mesurons notre succès non seulement en chiffres, mais aussi en vies transformées."}
+              {t('about', 'about.csr.impactText') || "Chaque prêt accordé représente une opportunité de créer des emplois, de stimuler l'économie locale et de construire un avenir meilleur pour nos communautés. Nous mesurons notre succès non seulement en chiffres, mais aussi en vies transformées."}
             </p>
           </div>
         </motion.div>

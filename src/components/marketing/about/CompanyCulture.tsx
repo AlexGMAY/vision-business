@@ -86,20 +86,20 @@ export function CompanyCulture() {
             <span className={`text-sm font-semibold ${
               isDark ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {t('about', 'culture.badge') || "Notre Culture"}
+              {t('about', 'about.culture.badge') || "Notre Culture"}
             </span>
           </motion.div>
 
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            {t('about', 'culture.title') || "Culture d'Entreprise"}
+            {t('about', 'about.culture.title') || "Culture d'Entreprise"}
           </h2>
           
           <p className={`text-xl max-w-2xl mx-auto ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            {t('about', 'culture.description') || "Un environnement où la passion, l'innovation et le bien-être se rencontrent"}
+            {t('about', 'about.culture.description') || "Un environnement où la passion, l'innovation et le bien-être se rencontrent"}
           </p>
         </motion.div>
 
@@ -169,12 +169,12 @@ export function CompanyCulture() {
             <h3 className={`text-2xl md:text-3xl font-bold mb-4 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('about', 'culture.testimonialsTitle') || "Témoignages de Notre Équipe"}
+              {t('about', 'about.culture.testimonialsTitle') || "Témoignages de Notre Équipe"}
             </h3>
             <p className={`text-lg ${
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              {t('about', 'culture.testimonialsDescription') || "Ce que nos collaborateurs disent de leur expérience"}
+              {t('about', 'about.culture.testimonialsDescription') || "Ce que nos collaborateurs disent de leur expérience"}
             </p>
           </div>
 

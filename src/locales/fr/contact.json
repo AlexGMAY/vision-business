@@ -56,6 +56,12 @@
       "hours": "Horaires d'Ouverture",
       "parking": "Parking",
       "accessibility": "Accessibilité"
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Projet ?",
+      "subtitle": "Prenez rendez-vous avec nos conseillers pour une étude personnalisée de votre dossier.",
+      "primaryButton": "Prendre Rendez-vous",
+      "secondaryButton": "Appeler maintenant"
     }
   }
 }

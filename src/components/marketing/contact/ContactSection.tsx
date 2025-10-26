@@ -127,29 +127,29 @@ export function ContactSection() {
     const newErrors: FormErrors = {}
 
     if (!formData.nom.trim()) {
-      newErrors.nom = t('contact', 'errors.nameRequired') || "Le nom est requis"
+      newErrors.nom = t('contact', 'contact.errors.nameRequired') || "Le nom est requis"
     }
 
     if (!formData.telephone.trim()) {
-      newErrors.telephone = t('contact', 'errors.phoneRequired') || "Le téléphone est requis"
+      newErrors.telephone = t('contact', 'contact.errors.phoneRequired') || "Le téléphone est requis"
     } else if (!/^\+?[\d\s-]{10,}$/.test(formData.telephone)) {
-      newErrors.telephone = t('contact', 'errors.phoneInvalid') || "Numéro de téléphone invalide"
+      newErrors.telephone = t('contact', 'contact.errors.phoneInvalid') || "Numéro de téléphone invalide"
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = t('contact', 'errors.emailRequired') || "L'email est requis"
+      newErrors.email = t('contact', 'contact.errors.emailRequired') || "L'email est requis"
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = t('contact', 'errors.emailInvalid') || "Email invalide"
+      newErrors.email = t('contact', 'contact.errors.emailInvalid') || "Email invalide"
     }
 
     if (!formData.sujet) {
-      newErrors.sujet = t('contact', 'errors.subjectRequired') || "Veuillez choisir un sujet"
+      newErrors.sujet = t('contact', 'contact.errors.subjectRequired') || "Veuillez choisir un sujet"
     }
 
     if (!formData.message.trim()) {
-      newErrors.message = t('contact', 'errors.messageRequired') || "Le message est requis"
+      newErrors.message = t('contact', 'contact.errors.messageRequired') || "Le message est requis"
     } else if (formData.message.trim().length < 10) {
-      newErrors.message = t('contact', 'errors.messageTooShort') || "Le message doit contenir au moins 10 caractères"
+      newErrors.message = t('contact', 'contact.errors.messageTooShort') || "Le message doit contenir au moins 10 caractères"
     }
 
     setErrors(newErrors)
@@ -247,12 +247,12 @@ export function ContactSection() {
               <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                {t('contact', 'title') || "Parlons de Votre Projet"}
+                {t('contact', 'contact.title') || "Parlons de Votre Projet"}
               </h2>
               <p className={`text-xl mb-8 leading-relaxed ${
                 isDark ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                {t('contact', 'subtitle') || "Notre équipe d'experts est prête à vous accompagner dans la réalisation de vos ambitions entrepreneuriales en RDC."}
+                {t('contact', 'contact.subtitle') || "Notre équipe d'experts est prête à vous accompagner dans la réalisation de vos ambitions entrepreneuriales en RDC."}
               </p>
             </motion.div>
 
@@ -276,7 +276,7 @@ export function ContactSection() {
                     <h3 className={`font-semibold text-lg mb-1 ${
                       isDark ? 'text-white' : 'text-gray-900'
                     }`}>
-                      {t('contact', `info.${item.title}`) || item.title}
+                      {t('contact', `contact.info.${item.title}`) || item.title}
                     </h3>
                     <p className={`mb-1 whitespace-pre-line ${
                       isDark ? 'text-gray-300' : 'text-gray-700'
@@ -286,7 +286,7 @@ export function ContactSection() {
                     <p className={`text-sm ${
                       isDark ? 'text-gray-500' : 'text-gray-500'
                     }`}>
-                      {t('contact', `info.${item.description}`) || item.description}
+                      {t('contact', `contact.info.${item.description}`) || item.description}
                     </p>
                   </div>
                 </motion.div>
@@ -304,7 +304,7 @@ export function ContactSection() {
               <h3 className={`font-semibold text-xl mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                {t('contact', 'social.title') || "Suivez-Nous"}
+                {t('contact', 'contact.social.title') || "Suivez-Nous"}
               </h3>
               <div className="flex space-x-3">
                 {socialNetworks.map((network, index) => (
@@ -353,7 +353,7 @@ export function ContactSection() {
                   isDark ? 'text-white' : 'text-gray-900'
                 }`}
               >
-                {t('contact', 'form.title') || "Envoyez-nous un Message"}
+                {t('contact', 'contact.form.title') || "Envoyez-nous un Message"}
               </motion.h3>
               
               <motion.p
@@ -365,7 +365,7 @@ export function ContactSection() {
                   isDark ? 'text-gray-400' : 'text-gray-600'
                 }`}
               >
-                {t('contact', 'form.subtitle') || "Nous vous répondons dans les plus brefs délais"}
+                {t('contact', 'contact.form.subtitle') || "Nous vous répondons dans les plus brefs délais"}
               </motion.p>
 
               {/* Success Message */}
@@ -387,12 +387,12 @@ export function ContactSection() {
                       <span className={`font-semibold block ${
                         isDark ? 'text-gray-300' : 'text-gray-700'
                       }`}>
-                        {t('contact', 'form.success') || "Message envoyé avec succès !"}
+                        {t('contact', 'contact.form.success') || "Message envoyé avec succès !"}
                       </span>
                       <span className={`text-sm block ${
                         isDark ? 'text-gray-400' : 'text-gray-600'
                       }`}>
-                        {t('contact', 'form.successDetails') || "Nous vous avons envoyé un email de confirmation. Nous vous contacterons rapidement."}
+                        {t('contact', 'contact.form.successDetails') || "Nous vous avons envoyé un email de confirmation. Nous vous contacterons rapidement."}
                       </span>
                     </div>
                   </div>
@@ -427,7 +427,7 @@ export function ContactSection() {
                     <label htmlFor="nom" className={`block text-sm font-semibold mb-2 ${
                       isDark ? 'text-gray-300' : 'text-gray-700'
                     }`}>
-                      {t('contact', 'form.fullName') || "Nom Complet"} *
+                      {t('contact', 'contact.form.fullName') || "Nom Complet"} *
                     </label>
                     <input
                       type="text"
@@ -441,7 +441,7 @@ export function ContactSection() {
                           ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
                           : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                       } ${errors.nom ? 'border-red-500' : 'border'}`}
-                      placeholder={t('contact', 'form.namePlaceholder') || "Votre nom complet"}
+                      placeholder={t('contact', 'contact.form.namePlaceholder') || "Votre nom complet"}
                     />
                     {errors.nom && (
                       <p className="text-red-500 text-sm mt-1">{errors.nom}</p>
@@ -452,7 +452,7 @@ export function ContactSection() {
                     <label htmlFor="telephone" className={`block text-sm font-semibold mb-2 ${
                       isDark ? 'text-gray-300' : 'text-gray-700'
                     }`}>
-                      {t('contact', 'form.phone') || "Téléphone"} *
+                      {t('contact', 'contact.form.phone') || "Téléphone"} *
                     </label>
                     <input
                       type="tel"
@@ -466,7 +466,7 @@ export function ContactSection() {
                           ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
                           : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                       } ${errors.telephone ? 'border-red-500' : 'border'}`}
-                      placeholder={t('contact', 'form.phonePlaceholder') || "+243 00 000 0000"}
+                      placeholder={t('contact', 'contact.form.phonePlaceholder') || "+243 00 000 0000"}
                     />
                     {errors.telephone && (
                       <p className="text-red-500 text-sm mt-1">{errors.telephone}</p>
@@ -478,7 +478,7 @@ export function ContactSection() {
                   <label htmlFor="email" className={`block text-sm font-semibold mb-2 ${
                     isDark ? 'text-gray-300' : 'text-gray-700'
                   }`}>
-                    {t('contact', 'form.email') || "Email"} *
+                    {t('contact', 'contact.form.email') || "Email"} *
                   </label>
                   <input
                     type="email"
@@ -492,7 +492,7 @@ export function ContactSection() {
                         ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
                         : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                     } ${errors.email ? 'border-red-500' : 'border'}`}
-                    placeholder={t('contact', 'form.emailPlaceholder') || "votre@email.com"}
+                    placeholder={t('contact', 'contact.form.emailPlaceholder') || "votre@email.com"}
                   />
                   {errors.email && (
                     <p className="text-red-500 text-sm mt-1">{errors.email}</p>
@@ -503,7 +503,7 @@ export function ContactSection() {
                   <label htmlFor="sujet" className={`block text-sm font-semibold mb-2 ${
                     isDark ? 'text-gray-300' : 'text-gray-700'
                   }`}>
-                    {t('contact', 'form.subject') || "Sujet"} *
+                    {t('contact', 'contact.form.subject') || "Sujet"} *
                   </label>
                   <select
                     id="sujet"
@@ -517,10 +517,10 @@ export function ContactSection() {
                         : 'bg-white border-gray-300 text-gray-900'
                     } ${errors.sujet ? 'border-red-500' : 'border'}`}
                   >
-                    <option value="">{t('contact', 'form.subjectPlaceholder') || "Choisir un sujet"}</option>
+                    <option value="">{t('contact', 'contact.form.subjectPlaceholder') || "Choisir un sujet"}</option>
                     {subjects.map(subject => (
                       <option key={subject.value} value={subject.value}>
-                        {t('contact', `subjects.${subject.label}`) || subject.label}
+                        {t('contact', `contact.subjects.${subject.label}`) || subject.label}
                       </option>
                     ))}
                   </select>
@@ -533,7 +533,7 @@ export function ContactSection() {
                   <label htmlFor="message" className={`block text-sm font-semibold mb-2 ${
                     isDark ? 'text-gray-300' : 'text-gray-700'
                   }`}>
-                    {t('contact', 'form.message') || "Message"} *
+                    {t('contact', 'contact.form.message') || "Message"} *
                   </label>
                   <textarea
                     id="message"
@@ -547,7 +547,7 @@ export function ContactSection() {
                         ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
                         : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                     } ${errors.message ? 'border-red-500' : 'border'}`}
-                    placeholder={t('contact', 'form.messagePlaceholder') || "Décrivez votre projet ou votre question..."}
+                    placeholder={t('contact', 'contact.form.messagePlaceholder') || "Décrivez votre projet ou votre question..."}
                   />
                   {errors.message && (
                     <p className="text-red-500 text-sm mt-1">{errors.message}</p>
@@ -574,10 +574,10 @@ export function ContactSection() {
                         transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
                         className="w-5 h-5 border-2 border-white border-t-transparent rounded-full mr-2"
                       />
-                      {t('contact', 'form.sending') || "Envoi en cours..."}
+                      {t('contact', 'contact.form.sending') || "Envoi en cours..."}
                     </span>
                   ) : (
-                    t('contact', 'form.submit') || "Envoyer le Message"
+                    t('contact', 'contact.form.submit') || "Envoyer le Message"
                   )}
                 </motion.button>
               </form>
