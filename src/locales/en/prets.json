@@ -1,0 +1,95 @@
+{
+  "badge": "All Our Loans",
+  "title": {
+    "main": "Discover our",
+    "highlight": "loan solutions"
+  },
+  "description": "Explore our complete range of {{count}} financing solutions designed to support all your projects, whether personal, professional, or entrepreneurial.",
+  "filters": {
+    "all": "All Loans",
+    "student": "Student",
+    "business": "Business",
+    "personal": "Personal",
+    "emergency": "Emergency",
+    "equipment": "Equipment",
+    "housing": "Housing",
+    "agriculture": "Agriculture",
+    "auto": "Auto",
+    "education": "Education",
+    "health": "Health",   
+    "women": "Women",
+    "cashflow": "Cashflow",
+    "startup": "Startup",
+    "growth": "Growth"
+  },
+  "results": {
+    "all": "Showing {{count}} loan",
+    "all_plural": "Showing {{count}} loans",
+    "filtered": "Showing {{count}} loan in category \"{{filter}}\"",
+    "filtered_plural": "Showing {{count}} loans in category \"{{filter}}\""
+  },
+  "comparison": {
+    "title": "Compare our loan solutions",
+    "subtitle": "Find the perfect loan solution for your entreprise needs"
+  },
+  "process": {
+    "title": "How to Get Your Loan",
+    "subtitle": "A simple and fast process in just 4 steps",
+    "step": "Step {{number}}",
+    "step1": {
+      "title": "Online Application",
+      "description": "Fill out our simplified form in just 5 minutes. No documents required for this first step."
+    },
+    "step2": {
+      "title": "File Analysis",
+      "description": "Our team studies your project and needs. We may request additional documents."
+    },
+    "step3": {
+      "title": "Final Approval",
+      "description": "Final validation of your loan with definitive conditions. Online contract signing."
+    },
+    "step4": {
+      "title": "Funds Disbursement",
+      "description": "Immediate transfer of funds to your account. You can start implementing your project."
+    },
+    "cta": {
+      "title": "Ready to start?",
+      "description": "Our team supports you at every step",
+      "button": "Start My Application"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quickly find answers to your questions about our loans",
+    "1": {
+      "question": "What documents are required for a loan application?",
+      "answer": "Documents vary by loan type. Generally, you'll need: ID card, proof of residence, recent bank statements, and for businesses: statutes and accounting documents. The complete list is available in each loan sheet."
+    },
+    "2": {
+      "question": "How long does loan approval take?",
+      "answer": "Processing times range from 12h for emergency loans to 72h for equipment loans. Most of our loans are approved within 48h. We keep you informed at every step of the process."
+    },
+    "3": {
+      "question": "Can I repay my loan early?",
+      "answer": "Yes, all our loans allow early repayment without additional fees. This saves you on interest and frees up your borrowing capacity faster."
+    },
+    "4": {
+      "question": "What's the difference between startup loan and growth loan?",
+      "answer": "The startup loan is designed for new businesses (less than 2 years old) with more modest amounts and enhanced support. The growth loan targets existing businesses looking to expand, with higher amounts and advantageous conditions."
+    },
+    "5": {
+      "question": "Do women entrepreneurs have special conditions?",
+      "answer": "Yes, our special women's loan offers preferential rates, adapted grace periods, and includes a mentorship program. We particularly support women's entrepreneurship in DRC."
+    },
+    "6": {
+      "question": "What to do if I encounter repayment difficulties?",
+      "answer": "Immediately contact our customer service. We offer adapted solutions: payment deferrals, rescheduling, or repayment plan adjustments. Transparency is essential to find the best solution together."
+    },
+    "help": {
+      "title": "Need additional help?",
+      "description": "Our team is here to answer your questions",
+      "button": "Contact Us"
+    }
+  }
+
+}

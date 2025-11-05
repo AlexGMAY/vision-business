@@ -12,5 +12,49 @@
   "privacyPolicy": "Politique de confidentialité",
   "termsOfService": "Conditions d'utilisation",
   "cookiePolicy": "Politique des cookies",
-  "trustedBy": "Partenaire de confiance de +80 clients"
+  "trustedBy": "Partenaire de confiance de +80 clients",
+    "loan": {
+    "amount": "Montant",
+    "interestRate": "Taux d'intérêt",
+    "term": "Durée",
+    "description": "Description",
+    "features": "Avantages",
+    "eligibility": "Éligibilité",
+    "requiredDocuments": "Documents Requis",
+    "advantages": "Avantages principaux"
+  },
+  "actions": {
+    "learnMore": "En savoir plus",
+    "applyLoan": "Demander ce prêt",
+    "close": "Fermer",
+    "viewAll": "Voir tous nos prêts",
+    "allLoans": "Tous les prêts"
+  },
+  "filters": {
+    "all": "Tous les prêts",
+    "student": "Étudiant",
+    "business": "Entreprise",
+    "personal": "Personnel",
+    "emergency": "Urgence",
+    "equipment": "Équipement",
+    "housing": "Logement",
+    "agriculture": "Agriculture",
+    "auto": "Automobile",
+    "education": "Formation",
+    "health": "Santé",   
+    "women": "Femmes",
+    "cashflow": "Cashflow",
+    "startup": "Startup",
+    "growth": "Croissance"
+  },
+  "results": {
+    "showing": "Affichage de",
+    "loans": "prêts",
+    "loan": "prêt",
+    "inCategory": "dans la catégorie"
+  },
+  "chooseLoan": "Choisir ce prêt",
+  "applyNow": "Demander maintenant",
+  "simulateLoan": "Simuler mon prêt",
+  "checkEligibility": "Vérifier mon éligibilité"
 }

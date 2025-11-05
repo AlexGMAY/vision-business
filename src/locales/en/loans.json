@@ -1,0 +1,265 @@
+{
+  "products": {
+    "student": {
+      "title": "Student Loan",
+      "subtitle": "Finance your academic future",
+      "description": "Tailored financing solutions to cover your tuition fees, accommodation, educational materials, and other academic needs.",
+      "amount": "Up to 5,000,000 FC",
+      "interestRate": "Preferential student rate",
+      "term": "12 to 60 months",
+      "features": {
+        "0": "Reduced guarantee required",
+        "1": "Possible repayment deferral",
+        "2": "Grace period granted",
+        "3": "Personalized support"
+      },
+      "eligibility": {
+        "0": "Enrolled in a recognized institution",
+        "1": "Aged between 18 and 35",
+        "2": "Provide proof of enrollment",
+        "3": "Have a guarantor (optional)"
+      },
+      "documents": {
+        "0": "Valid student card",
+        "1": "Recent transcripts",
+        "2": "Identity document",
+        "3": "Proof of residence"
+      }
+    },
+    "business": {
+      "title": "SME Loan",
+      "subtitle": "Grow your business",
+      "description": "Customized financing for small and medium enterprises looking to invest, grow, or modernize their operations.",
+      "amount": "500,000 to 50,000,000 FC",
+      "interestRate": "Competitive rates based on profile",
+      "term": "6 to 84 months",
+      "features": {
+        "0": "Free project study",
+        "1": "Business coaching",
+        "2": "Repayment flexibility",
+        "3": "Possible renewal"
+      },
+      "eligibility": {
+        "0": "Registered business for 6+ months",
+        "1": "Stable revenue",
+        "2": "Solid business plan",
+        "3": "Guarantees based on amount"
+      },
+      "documents": {
+        "0": "Company statutes",
+        "1": "6 months bank statements",
+        "2": "Detailed business plan",
+        "3": "Director identity documents"
+      }
+    },
+    "personal": {
+      "title": "Personal Loan",
+      "subtitle": "For your life projects",
+      "description": "Flexible financing for your personal projects: wedding, travel, education, healthcare, or any other family needs.",
+      "amount": "50,000 to 10,000,000 FC",
+      "interestRate": "Advantageous fixed rates",
+      "term": "3 to 36 months",
+      "features": {
+        "0": "Decision within 24 hours",
+        "1": "Simplified documentation",
+        "2": "No hidden fees",
+        "3": "Free early repayment"
+      },
+      "eligibility": {
+        "0": "Age between 21 and 65",
+        "1": "Stable income",
+        "2": "Positive credit history",
+        "3": "Resident in Ivory Coast"
+      },
+      "documents": {
+        "0": "Valid identity document",
+        "1": "Proof of income",
+        "2": "Proof of residence",
+        "3": "Recent bank statements"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Loan",
+      "subtitle": "Quick solutions for critical situations",
+      "description": "Express financing to deal with medical, family, or professional emergencies requiring rapid intervention.",
+      "amount": "25,000 to 2,000,000 FC",
+      "interestRate": "Adapted emergency rates",
+      "term": "1 to 12 months",
+      "features": {
+        "0": "Funding within 4 hours",
+        "1": "Accelerated procedure",
+        "2": "24/7 support",
+        "3": "Flexible conditions"
+      },
+      "eligibility": {
+        "0": "Existing customer preferred",
+        "1": "Justified emergency situation",
+        "2": "Repayment capacity",
+        "3": "Identity documents"
+      },
+      "documents": {
+        "0": "Identity document",
+        "1": "Emergency justification",
+        "2": "Proof of income",
+        "3": "Emergency contacts"
+      }
+    },
+    "equipment": {
+      "title": "Equipment Loan",
+      "subtitle": "Modernize your work tools",
+      "description": "Specialized financing for acquiring professional equipment, machinery, vehicles, or technologies needed for your business.",
+      "amount": "1,000,000 to 30,000,000 FC",
+      "interestRate": "Advantageous equipment rates",
+      "term": "12 to 60 months",
+      "features": {
+        "0": "Up to 100% financing",
+        "1": "Possible grace period",
+        "2": "Insurance included",
+        "3": "Recommended maintenance"
+      },
+      "eligibility": {
+        "0": "Operational business",
+        "1": "Investment justification",
+        "2": "Equipment guarantees",
+        "3": "Profitability plan"
+      },
+      "documents": {
+        "0": "Equipment quote",
+        "1": "Business plan",
+        "2": "Company statutes",
+        "3": "Bank statements"
+      }
+    },
+    "housing": {
+      "title": "Housing Loan",
+      "subtitle": "Realize your real estate project",
+      "description": "Financing solutions for the acquisition, construction, or renovation of your primary residence or rental investment.",
+      "amount": "5,000,000 to 100,000,000 FC",
+      "interestRate": "Preferential real estate rates",
+      "term": "60 to 240 months",
+      "features": {
+        "0": "Reduced minimum contribution",
+        "1": "Pre-financing period",
+        "2": "Real estate expertise included",
+        "3": "Home insurance offered"
+      },
+      "eligibility": {
+        "0": "Stable and sufficient income",
+        "1": "Minimum 10% personal contribution",
+        "2": "Viable real estate project",
+        "3": "Mortgage guarantees"
+      },
+      "documents": {
+        "0": "Reservation/sales contract",
+        "1": "Project plans",
+        "2": "Construction quote",
+        "3": "Proof of income"
+      }
+    },
+    "agriculture": {
+      "title": "Agriculture Loan",
+      "subtitle": "Finance your farm",
+      "description": "Tailored financing solutions for farmers to purchase equipment, seeds, and develop your crops.",
+      "amount": "500,000 to 20,000,000 FC",
+      "interestRate": "Special agriculture rates",
+      "term": "6 to 48 months",
+      "features": {
+        "0": "Grace period aligned with harvests",
+        "1": "Crop insurance included",
+        "2": "Free agricultural advice",
+        "3": "Seasonal financing"
+      },
+      "eligibility": {
+        "0": "Registered farm operation",
+        "1": "Cultivable land",
+        "2": "Viable crop plan",
+        "3": "Experience in agriculture"
+      },
+      "documents": {
+        "0": "Farm certificate",
+        "1": "Crop plan",
+        "2": "Property title or lease",
+        "3": "Identity documents"
+      }
+    },
+    "auto": {
+      "title": "Auto Loan",
+      "subtitle": "Your vehicle with peace of mind",
+      "description": "Financing for new or used vehicle purchases, with conditions adapted to your mobility needs.",
+      "amount": "1,000,000 to 25,000,000 FC",
+      "interestRate": "Preferential auto rates",
+      "term": "12 to 60 months",
+      "features": {
+        "0": "Up to 90% financing",
+        "1": "Insurance included",
+        "2": "Extended warranty options",
+        "3": "Partner maintenance service"
+      },
+      "eligibility": {
+        "0": "Valid driver's license",
+        "1": "Stable income",
+        "2": "Age between 23 and 65",
+        "3": "Proof of residence"
+      },
+      "documents": {
+        "0": "Driver's license",
+        "1": "Vehicle quote",
+        "2": "Proof of income",
+        "3": "Identity document"
+      }
+    },
+    "education": {
+      "title": "Education Loan",
+      "subtitle": "Invest in your skills",
+      "description": "Financing for professional training, certifications, and skills development programs.",
+      "amount": "100,000 to 5,000,000 FC",
+      "interestRate": "Advantageous education rates",
+      "term": "3 to 36 months",
+      "features": {
+        "0": "Possible deferred payment",
+        "1": "Career coaching",
+        "2": "Partner training network",
+        "3": "Repayment flexibility"
+      },
+      "eligibility": {
+        "0": "Defined training project",
+        "1": "Partner institution",
+        "2": "Career advancement perspective",
+        "3": "Stable professional situation"
+      },
+      "documents": {
+        "0": "Training enrollment",
+        "1": "Training quote",
+        "2": "CV and career project",
+        "3": "Proof of income"
+      }
+    },
+    "health": {
+      "title": "Health Loan",
+      "subtitle": "Take care of your well-being",
+      "description": "Financing solutions for medical care, surgical interventions, treatments, and medical equipment.",
+      "amount": "200,000 to 15,000,000 FC",
+      "interestRate": "Preferential health rates",
+      "term": "6 to 48 months",
+      "features": {
+        "0": "Fast funding within 48 hours",
+        "1": "Partner healthcare network",
+        "2": "Medical advice included",
+        "3": "Grace period based on treatment"
+      },
+      "eligibility": {
+        "0": "Justified medical need",
+        "1": "Medical prescription",
+        "2": "Optional social coverage",
+        "3": "Repayment capacity"
+      },
+      "documents": {
+        "0": "Detailed medical quote",
+        "1": "Medical prescriptions",
+        "2": "Identity documents",
+        "3": "Proof of social coverage"
+      }
+    }
+      
+  }
+}

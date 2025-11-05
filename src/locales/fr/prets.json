@@ -1,0 +1,95 @@
+{
+  "badge": "Tous Nos Prêts",
+  "title": {
+    "main": "Découvrez nos",
+    "highlight": "solutions de prêt"
+  },
+  "description": "Explorez notre gamme complète de {{count}} solutions de financement conçues pour accompagner tous vos projets, qu'ils soient personnels, professionnels ou entrepreneuriaux.",
+  "filters": {
+    "all": "Tous les prêts",
+    "student": "Étudiant",
+    "business": "Entreprise", 
+    "personal": "Personnel",
+    "emergency": "Urgence",
+    "equipment": "Équipement",
+    "housing": "Logement",
+    "agriculture": "Agriculture",
+    "auto": "Automobile",
+    "education": "Formation",
+    "health": "Santé",
+    "women": "Femmes",
+    "cashflow": "Cashflow",
+    "startup": "Startup",
+    "growth": "Croissance"
+  },
+  "results": {
+    "all": "Affichage de {{count}} prêt",
+    "all_plural": "Affichage de {{count}} prêts",
+    "filtered": "Affichage de {{count}} prêt dans la catégorie \"{{filter}}\"",
+    "filtered_plural": "Affichage de {{count}} prêts dans la catégorie \"{{filter}}\""
+  },
+  "comparison": {
+    "title": "Comparez nos solutions de prêt",
+    "subtitle": "Trouvez le prêt qui correspond parfaitement à vos besoins d'entreprise"
+  },
+  "process": {
+    "title": "Comment obtenir votre prêt",
+    "subtitle": "Un processus simple et rapide en 4 étapes seulement",
+    "step": "Étape {{number}}",
+    "step1": {
+      "title": "Demande en ligne",
+      "description": "Remplissez notre formulaire simplifié en 5 minutes seulement. Aucun document requis pour cette première étape."
+    },
+    "step2": {
+      "title": "Analyse de dossier",
+      "description": "Notre équipe étudie votre projet et vos besoins. Nous pouvons vous demander des documents complémentaires."
+    },
+    "step3": {
+      "title": "Approbation finale",
+      "description": "Validation définitive de votre prêt avec les conditions finales. Signature du contrat en ligne."
+    },
+    "step4": {
+      "title": "Déblocage des fonds",
+      "description": "Transfert immédiat des fonds sur votre compte. Vous pouvez commencer à concrétiser votre projet."
+    },
+    "cta": {
+      "title": "Prêt à démarrer ?",
+      "description": "Notre équipe vous accompagne à chaque étape",
+      "button": "Commencer ma demande"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Trouvez rapidement des réponses à vos questions sur nos prêts",
+    "1": {
+      "question": "Quels documents sont requis pour une demande de prêt ?",
+      "answer": "Les documents varient selon le type de prêt. Généralement, vous aurez besoin de : pièce d'identité, justificatif de domicile, relevés bancaires récents, et pour les entreprises : statuts et documents comptables. La liste complète est disponible dans chaque fiche prêt."
+    },
+    "2": {
+      "question": "Combien de temps prend l'approbation d'un prêt ?",
+      "answer": "Les délais varient de 12h pour les prêts urgence à 72h pour les prêts équipement. La majorité de nos prêts sont approuvés sous 48h. Nous vous tenons informé à chaque étape du processus."
+    },
+    "3": {
+      "question": "Puis-je rembourser mon prêt par anticipation ?",
+      "answer": "Oui, tous nos prêts permettent le remboursement anticipé sans frais supplémentaires. Vous économisez ainsi sur les intérêts et pouvez libérer votre capacité d'emprunt plus rapidement."
+    },
+    "4": {
+      "question": "Quelle est la différence entre le prêt démarrage et le prêt croissance ?",
+      "answer": "Le prêt démarrage est conçu pour les nouvelles entreprises (moins de 2 ans) avec des montants plus modestes et un accompagnement renforcé. Le prêt croissance s'adresse aux entreprises existantes souhaitant se développer, avec des montants plus élevés et des conditions avantageuses."
+    },
+    "5": {
+      "question": "Les femmes entrepreneures ont-elles des conditions spéciales ?",
+      "answer": "Oui, notre prêt spécial femmes offre des taux préférentiels, des délais de grâce adaptés et un programme de mentorat inclus. Nous soutenons particulièrement l'entrepreneuriat féminin en RDC."
+    },
+    "6": {
+      "question": "Que faire si je rencontre des difficultés de remboursement ?",
+      "answer": "Contactez immédiatement notre service client. Nous proposons des solutions adaptées : reports d'échéances, rééchelonnement, ou adaptation du plan de remboursement. La transparence est essentielle pour trouver ensemble la meilleure solution."
+    },
+    "help": {
+      "title": "Besoin d'aide supplémentaire ?",
+      "description": "Notre équipe est là pour vous répondre",
+      "button": "Nous contacter"
+    }
+  }
+
+}

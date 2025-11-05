@@ -1,0 +1,368 @@
+{
+  "products": {
+    "student": {
+      "title": "Prêt Étudiant",
+      "subtitle": "Financez votre avenir académique",
+      "description": "Des solutions de financement adaptées pour couvrir vos frais de scolarité, hébergement, matériel pédagogique et autres besoins académiques.",
+      "amount": "Jusqu'à 5,000,000 FC",
+      "interestRate": "Taux préférentiel étudiant",
+      "term": "12 à 60 mois",
+      "features": {
+        "0": "Garantie requise réduite",
+        "1": "Report de remboursement possible",
+        "2": "Délai de grâce accordé",
+        "3": "Accompagnement personnalisé"
+      },
+      "eligibility": {
+        "0": "Être inscrit dans un établissement reconnu",
+        "1": "Avoir entre 18 et 35 ans",
+        "2": "Fournir une preuve d'inscription",
+        "3": "Avoir un garant (optionnel)"
+      },
+      "documents": {
+        "0": "Carte d'étudiant valide",
+        "1": "Relevés de notes récents",
+        "2": "Pièce d'identité",
+        "3": "Justificatif de domicile"
+      }
+    },
+    "business": {
+      "title": "Prêt PME",
+      "subtitle": "Développez votre entreprise",
+      "description": "Financement sur mesure pour les petites et moyennes entreprises souhaitant investir, croître ou moderniser leurs opérations.",
+      "amount": "500,000 à 50,000,000 FC",
+      "interestRate": "Taux compétitifs selon profil",
+      "term": "6 à 84 mois",
+      "features": {
+        "0": "Étude de projet gratuite",
+        "1": "Accompagnement business",
+        "2": "Flexibilité de remboursement",
+        "3": "Renouvellement possible"
+      },
+      "eligibility": {
+        "0": "Entreprise enregistrée depuis 6+ mois",
+        "1": "Chiffre d'affaires stable",
+        "2": "Business plan solide",
+        "3": "Garanties selon montant"
+      },
+      "documents": {
+        "0": "Statuts de l'entreprise",
+        "1": "Relevés bancaires 6 mois",
+        "2": "Business plan détaillé",
+        "3": "Documents d'identité dirigeant"
+      }
+    },
+    "personal": {
+      "title": "Prêt Personnel",
+      "subtitle": "Pour vos projets de vie",
+      "description": "Financement flexible pour vos projets personnels : mariage, voyage, éducation, santé, ou tout autre besoin familial.",
+      "amount": "50,000 à 10,000,000 FC",
+      "interestRate": "Taux fixes avantageux",
+      "term": "3 à 36 mois",
+      "features": {
+        "0": "Décision sous 24h",
+        "1": "Documentation simplifiée",
+        "2": "Aucun frais caché",
+        "3": "Remboursement anticipé gratuit"
+      },
+      "eligibility": {
+        "0": "Âge entre 21 et 65 ans",
+        "1": "Revenus stables",
+        "2": "Historique de crédit positif",
+        "3": "Résident en Côte d'Ivoire"
+      },
+      "documents": {
+        "0": "Pièce d'identité valide",
+        "1": "Justificatif de revenus",
+        "2": "Justificatif de domicile",
+        "3": "Relevés bancaires récents"
+      }
+    },
+    "emergency": {
+      "title": "Prêt Urgence",
+      "subtitle": "Solutions rapides pour situations critiques",
+      "description": "Financement express pour faire face aux situations d'urgence médicale, familiale ou professionnelle nécessitant une intervention rapide.",
+      "amount": "25,000 à 2,000,000 FC",
+      "interestRate": "Taux adaptés aux urgences",
+      "term": "1 à 12 mois",
+      "features": {
+        "0": "Déblocage sous 4h",
+        "1": "Procédure accélérée",
+        "2": "Support 24/7",
+        "3": "Conditions flexibles"
+      },
+      "eligibility": {
+        "0": "Client existant préférable",
+        "1": "Situation d'urgence justifiée",
+        "2": "Capacité de remboursement",
+        "3": "Documents d'identité"
+      },
+      "documents": {
+        "0": "Pièce d'identité",
+        "1": "Justificatif d'urgence",
+        "2": "Preuve de revenus",
+        "3": "Contacts d'urgence"
+      }
+    },
+    "equipment": {
+      "title": "Prêt Équipement",
+      "subtitle": "Modernisez votre outil de travail",
+      "description": "Financement spécialisé pour l'acquisition d'équipements professionnels, machines, véhicules ou technologies nécessaires à votre activité.",
+      "amount": "1,000,000 à 30,000,000 FC",
+      "interestRate": "Taux avantageux équipement",
+      "term": "12 à 60 mois",
+      "features": {
+        "0": "Financement jusqu'à 100%",
+        "1": "Période de grâce possible",
+        "2": "Assurance incluse",
+        "3": "Maintenance conseillée"
+      },
+      "eligibility": {
+        "0": "Entreprise opérationnelle",
+        "1": "Justification de l'investissement",
+        "2": "Garanties sur équipement",
+        "3": "Plan de rentabilité"
+      },
+      "documents": {
+        "0": "Devis d'équipement",
+        "1": "Business plan",
+        "2": "Statuts entreprise",
+        "3": "Relevés bancaires"
+      }
+    },
+    "housing": {
+      "title": "Prêt Logement",
+      "subtitle": "Concrétisez votre projet immobilier",
+      "description": "Solutions de financement pour l'acquisition, la construction ou la rénovation de votre résidence principale ou investissement locatif.",
+      "amount": "5,000,000 à 100,000,000 FC",
+      "interestRate": "Taux immobilier préférentiel",
+      "term": "60 à 240 mois",
+      "features": {
+        "0": "Apport minimum réduit",
+        "1": "Période de préfinancement",
+        "2": "Expertise immobilière incluse",
+        "3": "Assurance habitation offerte"
+      },
+      "eligibility": {
+        "0": "Revenus stables et suffisants",
+        "1": "Apport personnel minimum 10%",
+        "2": "Projet immobilier viable",
+        "3": "Garanties hypothécaires"
+      },
+      "documents": {
+        "0": "Contrat de réservation/vente",
+        "1": "Plans du projet",
+        "2": "Devis de construction",
+        "3": "Justificatifs de revenus"
+      }
+    },
+    "agriculture": {
+      "title": "Prêt Agricole",
+      "subtitle": "Financez votre exploitation",
+      "description": "Solutions de financement adaptées aux agriculteurs pour l'achat d'équipements, de semences, et le développement de vos cultures.",
+      "amount": "500,000 à 20,000,000 FC",
+      "interestRate": "Taux spécial agriculture",
+      "term": "6 à 48 mois",
+      "features": {
+        "0": "Période de grâce alignée sur les récoltes",
+        "1": "Assurance récolte incluse",
+        "2": "Conseil agricole gratuit",
+        "3": "Financement saisonnier"
+      },
+      "eligibility": {
+        "0": "Exploitation agricole enregistrée",
+        "1": "Terres cultivables",
+        "2": "Plan de culture viable",
+        "3": "Expérience en agriculture"
+      },
+      "documents": {
+        "0": "Certificat d'exploitation",
+        "1": "Plan de culture",
+        "2": "Titre de propriété ou bail",
+        "3": "Justificatifs d'identité"
+      }
+    },
+    "auto": {
+      "title": "Prêt Auto",
+      "subtitle": "Votre véhicule en toute sérénité",
+      "description": "Financement pour l'achat de véhicules neufs ou d'occasion, avec des conditions adaptées à vos besoins de mobilité.",
+      "amount": "1,000,000 à 25,000,000 FC",
+      "interestRate": "Taux préférentiel automobile",
+      "term": "12 à 60 mois",
+      "features": {
+        "0": "Financement jusqu'à 90%",
+        "1": "Assurance comprise",
+        "2": "Options de garantie étendue",
+        "3": "Service d'entretien partenaire"
+      },
+      "eligibility": {
+        "0": "Permis de conduire valide",
+        "1": "Revenus stables",
+        "2": "Âge entre 23 et 65 ans",
+        "3": "Justificatif de domicile"
+      },
+      "documents": {
+        "0": "Permis de conduire",
+        "1": "Devis du véhicule",
+        "2": "Justificatifs de revenus",
+        "3": "Pièce d'identité"
+      }
+    },
+    "education": {
+      "title": "Prêt Formation",
+      "subtitle": "Investissez dans vos compétences",
+      "description": "Financement pour les formations professionnelles, certifications et programmes de développement des compétences.",
+      "amount": "100,000 à 5,000,000 FC",
+      "interestRate": "Taux éducation avantageux",
+      "term": "3 à 36 mois",
+      "features": {
+        "0": "Paiement différé possible",
+        "1": "Accompagnement carrière",
+        "2": "Réseau de partenaires formation",
+        "3": "Flexibilité de remboursement"
+      },
+      "eligibility": {
+        "0": "Projet de formation défini",
+        "1": "Établissement partenaire",
+        "2": "Perspective d'évolution",
+        "3": "Situation professionnelle stable"
+      },
+      "documents": {
+        "0": "Inscription à la formation",
+        "1": "Devis de la formation",
+        "2": "CV et projet professionnel",
+        "3": "Justificatifs de revenus"
+      }
+    },
+    "health": {
+      "title": "Prêt Santé",
+      "subtitle": "Prenez soin de votre bien-être",
+      "description": "Solutions de financement pour les soins médicaux, interventions chirurgicales, traitements et équipements médicaux.",
+      "amount": "200,000 à 15,000,000 FC",
+      "interestRate": "Taux santé préférentiels",
+      "term": "6 à 48 mois",
+      "features": {
+        "0": "Déblocage rapide sous 48h",
+        "1": "Réseau de soins partenaires",
+        "2": "Conseil médical inclus",
+        "3": "Période de grâce selon traitement"
+      },
+      "eligibility": {
+        "0": "Besoin médical justifié",
+        "1": "Prescription médicale",
+        "2": "Couverture sociale optionnelle",
+        "3": "Capacité de remboursement"
+      },
+      "documents": {
+        "0": "Devis médical détaillé",
+        "1": "Prescriptions médicales",
+        "2": "Justificatifs d'identité",
+        "3": "Preuve de couverture sociale"
+      }
+    },
+     "startup": {
+      "title": "Prêt Démarrage",
+      "subtitle": "Lancez votre entreprise en toute sérénité",
+      "description": "Financement spécialisé pour les nouvelles entreprises et startups avec un accompagnement personnalisé et des conditions adaptées aux projets naissants.",
+      "amount": "50,000 à 500,000 FC",
+      "interestRate": "9.9% taux fixe",
+      "term": "6 à 18 mois",
+      "features": {
+        "0": "Accompagnement création d'entreprise",
+        "1": "Période de grâce de 3 mois",
+        "2": "Business plan support inclus",
+        "3": "Suivi personnalisé mensuel"
+      },
+      "eligibility": {
+        "0": "Entreprise de moins de 2 ans",
+        "1": "Business plan viable",
+        "2": "Aucun historique de crédit requis",
+        "3": "Projet situé en RDC"
+      },
+      "documents": {
+        "0": "Business plan détaillé",
+        "1": "Pièce d'identité du dirigeant",
+        "2": "Justificatif de domicile",
+        "3": "CV du porteur de projet"
+      }
+    },
+    "growth": {
+      "title": "Prêt Croissance",
+      "subtitle": "Développez votre entreprise existante",
+      "description": "Financement dédié à l'expansion des entreprises établies : recrutement, nouveaux marchés, augmentation de capacité de production.",
+      "amount": "200,000 à 2,000,000 FC",
+      "interestRate": "8.9% taux fixe",
+      "term": "12 à 24 mois",
+      "features": {
+        "0": "Montants plus élevés",
+        "1": "Flexibilité de remboursement",
+        "2": "Renouvellement automatique possible",
+        "3": "Accès à notre réseau d'affaires"
+      },
+      "eligibility": {
+        "0": "Entreprise opérationnelle depuis 2+ ans",
+        "1": "Chiffre d'affaires stable",
+        "2": "Plan de croissance détaillé",
+        "3": "Garanties selon le montant"
+      },
+      "documents": {
+        "0": "Comptes annuels 2 dernières années",
+        "1": "Relevés bancaires 6 mois",
+        "2": "Plan de développement",
+        "3": "Statuts mis à jour"
+      }
+    },    
+    "cashflow": {
+      "title": "Prêt Trésorerie",
+      "subtitle": "Optimisez votre fonds de roulement",
+      "description": "Financement rapide pour couvrir vos besoins en trésorerie : stocks, créances clients, dépenses courantes et opportunités commerciales.",
+      "amount": "50,000 à 800,000 FC",
+      "interestRate": "10.9% taux fixe",
+      "term": "3 à 12 mois",
+      "features": {
+        "0": "Déblocage en 24h",
+        "1": "Remboursement mensuel flexible",
+        "2": "Renouvellement simplifié",
+        "3": "Aucune garantie immobilière"
+      },
+      "eligibility": {
+        "0": "Entreprise en activité depuis 6+ mois",
+        "1": "Besoin de trésorerie justifié",
+        "2": "Capacité de remboursement",
+        "3": "Situation fiscale régulière"
+      },
+      "documents": {
+        "0": "Relevés bancaires 3 mois",
+        "1": "État des créances clients",
+        "2": "Budget de trésorerie",
+        "3": "Déclaration fiscale"
+      }
+    },    
+    "women": {
+      "title": "Prêt Spécial Femmes",
+      "subtitle": "Soutien à l'entrepreneuriat féminin",
+      "description": "Programme dédié aux femmes entrepreneures avec des conditions avantageuses, un accompagnement renforcé et un réseau de mentorat.",
+      "amount": "50,000 à 1,000,000 FC",
+      "interestRate": "7.9% taux fixe",
+      "term": "6 à 24 mois",
+      "features": {
+        "0": "Taux préférentiel femmes",
+        "1": "Programme de mentorat inclus",
+        "2": "Période de grâce adaptée",
+        "3": "Réseau femmes entrepreneures"
+      },
+      "eligibility": {
+        "0": "Femme entrepreneure ou cheffe d'entreprise",
+        "1": "Projet viable et innovant",
+        "2": "Engagement dans le développement",
+        "3": "Résidente en RDC"
+      },
+      "documents": {
+        "0": "Pièce d'identité",
+        "1": "Business plan détaillé",
+        "2": "Justificatif d'activité",
+        "3": "Lettre de motivation"
+      }
+    }
+  }
+}

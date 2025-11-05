@@ -12,5 +12,46 @@
   "privacyPolicy": "Privacy policy",
   "termsOfService": "Terms of service",
   "cookiePolicy": "Cookie policy",
-  "trustedBy": "Trusted partner of +80 customers"
+  "trustedBy": "Trusted partner of +80 customers",
+  "loan": {
+    "amount": "Amount",
+    "interestRate": "Interest Rate",
+    "term": "Term",
+    "description": "Description",
+    "features": "Features",
+    "eligibility": "Eligibility",
+    "requiredDocuments": "Required Documents",
+    "advantages": "Main Advantages"
+  },
+  "actions": {
+    "learnMore": "Learn More",
+    "applyLoan": "Apply for this Loan",
+    "close": "Close",
+    "viewAll": "View All Loans",
+    "allLoans": "All Loans"
+  },
+  "filters": {
+    "all": "All Loans",
+    "student": "Student",
+    "business": "Business",
+    "personal": "Personal",
+    "emergency": "Emergency",
+    "equipment": "Equipment",
+    "housing": "Housing",
+    "agriculture": "Agriculture",
+    "auto": "Auto",
+    "education": "Education",
+    "health": "Health",
+    "women": "Women",
+    "cashflow": "Cashflow",
+    "startup": "Startup",
+    "growth": "Growth"
+  },
+  "results": {
+    "showing": "Showing",
+    "loans": "loans",
+    "loan": "loan",
+    "inCategory": "in category"
+  }
+
 }

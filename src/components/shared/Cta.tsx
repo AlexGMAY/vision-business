@@ -443,12 +443,18 @@ export const LoansCta: React.FC = () => {
       title={t('homepage', 'cta.loans.title') || "Trouvez le prêt parfait pour votre projet"}
       subtitle={t('homepage', 'cta.loans.subtitle') || "Avec 6 solutions de financement adaptées, nous avons le prêt qu'il vous faut, quel que soit votre projet."}
       primaryButton={{
-        text: t('homepage', 'cta.loans.primaryButton') || "Voir tous les prêts",
-        href: "/prets"
+        text: t('homepage', 'cta.loans.primaryButton') || "Je fais ma demande",
+        href: "/application"
       }}
       variant="gradient"
       size="lg"
       alignment="center"
+      stats={[
+        { value: "80+", label: "Clients Servis" },
+        { value: "98%", label: "Satisfaction" },
+        { value: "2M+", label: "FC Débloqués" },
+        { value: "5+", label: "Ans d'Expérience" }
+      ]}
     />
   );
 };
