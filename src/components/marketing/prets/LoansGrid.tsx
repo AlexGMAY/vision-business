@@ -8,7 +8,6 @@ import { LoanProduct } from './types';
 import { allLoanProducts } from './loanData';
 import { LoanCard } from './LoanCard';
 import { LoanModal } from './LoanModal';
-import { LoanComparison } from './LoanComparison';
 
 // Grid animation variants
 const gridVariants: Variants = {
@@ -56,12 +55,7 @@ export default function LoansGrid() {
     setIsModalOpen(false);
     setTimeout(() => setSelectedLoan(null), 300);
   };
-
-  const handleLoanSelect = (loan: LoanProduct) => {
-    setSelectedLoan(loan);
-    setIsModalOpen(true);
-  };
-
+  
   // Filter loans by category
   const filteredLoans = filter === 'all' 
     ? allLoanProducts 
@@ -76,7 +70,7 @@ export default function LoansGrid() {
   }, [filter]);
 
   return (
-    <section className={`min-h-screen py-20 lg:py-24 ${isDark ? 'bg-gray-900' : 'bg-gray-50'}`}>
+    <section id='prets' className={`min-h-screen py-20 lg:py-24 ${isDark ? 'bg-gray-900' : 'bg-gray-50'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -175,9 +169,7 @@ export default function LoansGrid() {
               />
             </motion.div>
           ))}
-        </motion.div>
-
-        {/* <LoanComparison onLoanSelect={handleLearnMore} /> */}
+        </motion.div>        
 
         {/* Results Count */}
         <motion.div

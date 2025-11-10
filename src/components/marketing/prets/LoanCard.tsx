@@ -34,18 +34,40 @@ export const LoanCard: React.FC<LoanCardProps> = ({ loan, index, isDark, onLearn
   const { t } = useTranslation();
   const colors = colorClasses[loan.color];
   
-  // Helper function to get nested translations
-  const getLoanTranslation = (field: string) => {
-    const loanType = loan.id.split('-')[0]; // 'student-loan' -> 'student'
-    const translationKey = `products.${loanType}.${field}`;
-    return t('loans', translationKey) || loan[field as keyof typeof loan];
+  // Helper to normalize various translation return types to a string
+  const safeToString = (value: unknown): string => {
+    if (typeof value === 'string') return value;
+    if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+    if (Array.isArray(value)) return value.join(', ');
+    if (value && typeof value === 'object') {
+      const v = value as Record<string, any>;
+      // Example: { min: number; max: number; } -> "min – max"
+      if (typeof v.min === 'number' && typeof v.max === 'number') {
+        return `${v.min} – ${v.max}`;
+      }
+      try {
+        return JSON.stringify(value);
+      } catch {
+        return '';
+      }
+    }
+    return '';
   };
 
-  // Helper function to get feature translation
-  const getFeatureTranslation = (featureKey: string, index: number) => {
+  // Helper function to get nested translations (always returns string)
+  const getLoanTranslation = (field: string): string => {
+    const loanType = loan.id.split('-')[0]; // 'student-loan' -> 'student'
+    const translationKey = `products.${loanType}.${field}`;
+    const translated = t('loans', translationKey) ?? loan[field as keyof typeof loan];
+    return safeToString(translated);
+  };
+
+  // Helper function to get feature translation (always returns string)
+  const getFeatureTranslation = (featureKey: string, index: number): string => {
     const loanType = loan.id.split('-')[0];
     const translationKey = `products.${loanType}.features.${index}`;
-    return t('loans', translationKey) || featureKey;
+    const translated = t('loans', translationKey) ?? featureKey;
+    return safeToString(translated);
   };
 
   return (

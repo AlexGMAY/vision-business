@@ -1,0 +1,53 @@
+{
+    "company": {
+      "name": "Vision Business",
+      "subtitle": "Microfinance",
+      "description": "Votre partenaire de confiance pour des solutions de financement accessibles et transparentes. Nous transformons vos ambitions en réalité grâce à notre expertise et notre engagement."
+    },
+    "badges": {
+      "regulated": "Réglementé BCC",
+      "secure": "Données Sécurisées"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Accueil",
+      "loans": "Nos Prêts",
+      "apply": "Obtenir un Prêt",
+      "contact": "Contact",
+      "howItWorks": "Comment ça marche"
+    },
+    "information": {
+      "title": "Informations"
+    },
+    "legal": {
+      "title": "Légal",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "compliance": "Conformité réglementaire"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Gombe, Kinshasa, RDC"
+    },
+    "newsletter": {
+      "title": "Restez informé",
+      "placeholder": "Votre email",
+      "button": "S'abonner",
+      "sending": "Envoi...",
+      "success": "✅ Merci ! Vous êtes maintenant abonné à notre newsletter.",
+      "invalidEmail": "Veuillez entrer une adresse email valide",
+      "description": "Recevez les dernières actualités et offres exclusives de Vision Business."
+    },
+    "social": {
+      "follow": "Suivez-nous"
+    },
+    "copyright": {
+      "company": "Vision Business Microfinance",
+      "rights": "Tous droits réservés.",
+      "country": "République Démocratique du Congo"
+    },
+    "security": {
+      "ssl": "Sécurisé SSL",
+      "encrypted": "Données cryptées"
+    }
+  }

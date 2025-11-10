@@ -1,4 +1,3 @@
-// components/loans/types.ts
 export interface LoanProduct {
   id: string;
   title: string;

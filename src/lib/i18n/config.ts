@@ -18,7 +18,11 @@ export const translationNamespaces = [
   'navigation', 
   'homepage',
   'forms',
-  'legal'
+  'legal',
+  'about',
+  'contact',
+  'loans',
+  'prets' 
 ] as const;
 
 export type TranslationNamespace = typeof translationNamespaces[number];

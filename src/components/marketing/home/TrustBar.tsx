@@ -67,7 +67,7 @@ interface TrustItem {
 const trustItems: TrustItem[] = [
   {
     icon: "👥",
-    value: "5,000+",
+    value: "80+",
     label: "Clients Satisfaits",
     description: "Entreprises et particuliers",
     color: "blue"

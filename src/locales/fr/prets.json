@@ -90,6 +90,95 @@
       "description": "Notre équipe est là pour vous répondre",
       "button": "Nous contacter"
     }
+  },
+  "eligibility": {
+    "title": "Vérifiez votre éligibilité",
+    "subtitle": "Répondez à 5 questions pour découvrir les prêts adaptés à votre profil",
+    "progress": "Question {{current}} sur {{total}}",
+    "previous": "Précédent",
+    "restart": "Recommencer",
+    "questions": {
+      "0": {
+        "text": "Quel est votre profil principal ?"
+      },
+      "1": {
+        "text": "Votre entreprise existe-t-elle depuis plus de 2 ans ?"
+      },
+      "2": {
+        "text": "Avez-vous des revenus réguliers et stables ?"
+      },
+      "3": {
+        "text": "Souhaitez-vous financer un équipement spécifique ?"
+      },
+      "4": {
+        "text": "Avez-vous besoin de ce financement rapidement ?"
+      }
+    },
+    "answers": {
+      "entrepreneur": "Entrepreneur/Chef d'entreprise",
+      "particulier": "Particulier/Freelance",
+      "plus2ans": "Oui, plus de 2 ans",
+      "moins2ans": "Non, moins de 2 ans",
+      "stable": "Oui, revenus stables",
+      "irregular": "Non, revenus irréguliers",
+      "equipment": "Oui, pour équipement",
+      "cashflow": "Non, pour trésorerie",
+      "urgent": "Oui, sous 48h",
+      "planning": "Non, j'anticipe",
+      "explanation": {
+        "yes": "Choisissez cette option si elle correspond à votre situation",
+        "no": "Choisissez cette option si elle ne correspond pas à votre situation"
+      }
+    },
+    "results": {
+      "title": "Prêts recommandés pour vous",
+      "subtitle": "Basé sur vos réponses, nous avons sélectionné {{count}} prêts adaptés à votre profil",
+      "apply": "Découvrir ce prêt",
+      "restart": "Refaire le test"
+    }
+  },
+  "successStories": {
+    "title": "Histoires de Réussite",
+    "subtitle": "Découvrez comment nos clients ont transformé leurs projets en succès",
+    "amount": "Montant",
+    "duration": "Durée",
+    "results": "Résultats Obtenus",
+    "metrics": {
+      "roi": "ROI",
+      "emplois créés": "Emplois créés",
+      "chiffre d'affaires": "Chiffre d'affaires",
+      "productivité": "Productivité",
+      "surface cultivée": "Surface cultivée",
+      "exportations": "Exportations",
+      "clients/mois": "Clients/mois",
+      "employées femmes": "Employées femmes"
+    },
+    "cta": {
+      "title": "Prêt à écrire votre histoire de réussite ?",
+      "subtitle": "Rejoignez nos milliers de clients satisfaits maintenant",
+      "button": "Commencer ma demande"
+    }
+  },
+  "calculator": {
+    "title": "Simulateur de Prêt",
+    "subtitle": "Calculez vos mensualités et visualisez votre plan de remboursement",
+    "parameters": "Paramètres du prêt",
+    "loanType": "Type de prêt",
+    "amount": "Montant du prêt",
+    "interestRate": "Taux d'intérêt",
+    "term": "Durée du prêt",
+    "months": "6 mois",
+    "monthsShort": "mois",
+    "years": "7 ans",
+    "results": "Résultats de la simulation",
+    "monthlyPayment": "Mensualité",
+    "totalInterest": "Intérêts totaux",
+    "totalAmount": "Total à rembourser",
+    "amortization": "Aperçu du tableau d'amortissement",
+    "month": "Mois",
+    "principal": "Principal",
+    "interest": "Intérêts",
+    "balance": "Solde",
+    "applyNow": "Demander ce prêt"
   }
-
 }

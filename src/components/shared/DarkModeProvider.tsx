@@ -7,35 +7,65 @@ type DarkModeContextType = {
   toggleDarkMode: () => void
 }
 
-const DarkModeContext = createContext<DarkModeContextType | undefined>(undefined)
+const DarkModeContext = createContext<DarkModeContextType>({
+  isDark: false,
+  toggleDarkMode: () => {},
+})
 
 export function DarkModeProvider({ children }: { children: React.ReactNode }) {
-  const [isDark, setIsDark] = useState(true) // Default to dark mode
+  const [isDark, setIsDark] = useState(false)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    // Apply dark mode class to html element
-    if (isDark) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
+    setMounted(true)
+    
+    try {
+      const saved = localStorage.getItem('darkMode')
+      if (saved !== null) {
+        setIsDark(saved === 'true')
+      } else {
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        setIsDark(systemDark)
+      }
+    } catch (error) {
+      console.error('Error accessing localStorage:', error)
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+      setIsDark(systemDark)
     }
-  }, [isDark])
+  }, [])
+
+  useEffect(() => {
+    if (mounted) {
+      if (isDark) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+      
+      try {
+        localStorage.setItem('darkMode', isDark.toString())
+      } catch (error) {
+        console.error('Error saving to localStorage:', error)
+      }
+    }
+  }, [isDark, mounted])
 
   const toggleDarkMode = () => {
     setIsDark(!isDark)
   }
 
+  // Provide default values until mounted to prevent hydration issues
+  const contextValue = mounted 
+    ? { isDark, toggleDarkMode }
+    : { isDark: false, toggleDarkMode: () => {} }
+
   return (
-    <DarkModeContext.Provider value={{ isDark, toggleDarkMode }}>
+    <DarkModeContext.Provider value={contextValue}>
       {children}
     </DarkModeContext.Provider>
   )
 }
 
 export function useDarkMode() {
-  const context = useContext(DarkModeContext)
-  if (context === undefined) {
-    throw new Error('useDarkMode must be used within a DarkModeProvider')
-  }
-  return context
+  return useContext(DarkModeContext)
 }

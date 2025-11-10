@@ -1,75 +1,325 @@
 {
-  "privacy": {
-    "title": "Privacy Policy",
+  "conditions": {
+    "seo": {
+      "title": "Terms and Conditions - Vision Business | Loans and Financing DRC",
+      "description": "Vision Business terms and conditions. Discover our terms for personal loans, business loans and financial services in Democratic Republic of Congo.",
+      "keywords": "terms and conditions, loan terms, financing contract, Vision Business DRC, microfinance Congo, terms of use",
+      "ogTitle": "Terms and Conditions - Vision Business",
+      "ogDescription": "Terms of use for our loan and financing services in Democratic Republic of Congo"
+    },
+    "title": "Terms and Conditions of Use",
     "lastUpdated": "Last updated",
-    "introduction": "Vision Business Microfinance is committed to protecting the confidentiality of your personal information. This policy explains how we collect, use, and protect your data.",
-    "dataCollection": {
-      "title": "Data Collection",
-      "content": "We collect the following information: name, address, email, phone, identification, financial information, credit history, and other data necessary for loan application assessment."
+    "tableOfContents": "Table of Contents",
+    "section1": {
+      "title": "Acceptance of terms",
+      "content1": "By accessing and using Vision Business services, you unconditionally accept these terms and conditions of use. If you do not accept these terms, please do not use our services.",
+      "content2": "Vision Business reserves the right to modify these terms at any time. Users will be informed of important changes by email or via a notification on our platform."
     },
-    "dataUsage": {
-      "title": "Data Usage",
-      "content": "Your data is used to: assess your credit eligibility, manage your account, contact you, comply with legal obligations, and improve our services."
+    "section2": {
+      "title": "Services offered",
+      "content": "Vision Business offers the following financial services:",
+      "personalLoans": "Personal loans for individuals",
+      "businessLoans": "Financing for small and medium enterprises",
+      "emergencyLoans": "Emergency and cash flow loans",
+      "equipmentLoans": "Equipment and project financing",
+      "financialAdvice": "Support and financial advice",
+      "footer": "All services are subject to the approval of our credit committee and compliance with applicable regulations in the Democratic Republic of Congo."
     },
-    "dataProtection": {
-      "title": "Data Protection",
-      "content": "We implement strict technical and organizational security measures including encryption, access control, and regular audits to protect your data."
+    "section3": {
+      "title": "Loan application process",
+      "eligibility": {
+        "title": "Eligibility",
+        "content": "To be eligible for our loan services, you must meet the following conditions:",
+        "age": "Be at least 18 years old",
+        "residency": "Reside in the Democratic Republic of Congo",
+        "income": "Have a regular and verifiable source of income",
+        "documents": "Provide required identification and supporting documents",
+        "creditHistory": "Have a satisfactory credit history or accept a solvency assessment"
+      },
+      "documents": {
+        "title": "Required documents",
+        "content": "Depending on the loan type, the following documents may be required:",
+        "identity": "Valid national ID card or passport",
+        "address": "Proof of address less than 3 months old",
+        "income": "Proof of income (pay slips, bank statements, tax declarations)",
+        "business": "For businesses: statutes, trade register, recent financial statements",
+        "collateral": "Documents related to proposed collateral if applicable"
+      }
     },
-    "dataRetention": {
-      "title": "Data Retention",
-      "content": "We retain your data as long as necessary to provide our services and comply with legal obligations. Loan data is retained for 10 years after contract termination."
+    "section4": {
+      "title": "User obligations",
+      "content": "By using our services, you commit to:",
+      "accuracy": "Provide accurate, complete and up-to-date information",
+      "confidentiality": "Maintain the confidentiality of your login credentials",
+      "repayment": "Strictly respect the agreed repayment deadlines",
+      "communication": "Inform Vision Business of any change in situation that may affect your repayment capacity",
+      "fundsUsage": "Use the loaned funds in accordance with the purpose declared in your application",
+      "cooperation": "Cooperate with Vision Business for any necessary verification"
     },
-    "yourRights": {
-      "title": "Your Rights",
-      "content": "You have the right to access your data, rectify it, object to its processing, limit it, and request deletion within legal limits."
+    "section5": {
+      "title": "Privacy and data protection",
+      "content1": "Vision Business is committed to protecting the confidentiality of your personal data in accordance with our privacy policy and data protection regulations.",
+      "content2": "Your data is used exclusively for:",
+      "usage1": "The study and processing of your loan application",
+      "usage2": "The management of your customer relationship and loan contract",
+      "usage3": "The improvement of our services and products",
+      "usage4": "Compliance with our legal and regulatory obligations",
+      "usage5": "Fraud prevention and money laundering"
+    },
+    "section6": {
+      "title": "Intellectual property",
+      "content": "All content, brands, logos and graphic elements of the Vision Business platform are the exclusive property of Vision Business and are protected by intellectual property laws."
+    },
+    "section7": {
+      "title": "Liability limitations",
+      "content": "Vision Business cannot be held liable for indirect damages resulting from the use of its services. Vision Business's liability is limited to the amount of fees collected for the service concerned."
+    },
+    "section8": {
+      "title": "Terms modifications",
+      "content": "Vision Business reserves the right to modify these terms at any time. Modifications will take effect upon their publication on the platform. The user is deemed to have accepted the modifications by continuing to use the services."
+    },
+    "section9": {
+      "title": "Applicable law and jurisdiction",
+      "content1": "These general terms and conditions are governed by the law of the Democratic Republic of Congo.",
+      "content2": "Any dispute relating to their interpretation or execution falls under the exclusive jurisdiction of the courts of Kinshasa, notwithstanding multiple defendants or call in guarantee."
+    },
+    "questions": {
+      "title": "Questions about our terms?",
+      "content": "Our team is at your disposal for any question regarding our terms and conditions."
+    },
+    "buttons": {
+      "contact": "Contact us",
+      "privacy": "Privacy policy"
     }
   },
-  "terms": {
-    "title": "Terms of Service",
-    "introduction": "By using our services, you accept these general terms and conditions.",
-    "eligibility": {
-      "title": "Eligibility",
-      "content": "To benefit from our services, you must: be of legal age, reside in Ivory Coast, have valid identification, and provide required documents."
+  "privacy": {
+    "seo": {
+      "title": "Privacy Policy - Vision Business | Data Protection DRC",
+      "description": "Vision Business privacy policy. Discover how we protect your personal data in our financial services in Democratic Republic of Congo.",
+      "keywords": "data privacy, personal data protection, GDPR DRC, personal information, Vision Business security, privacy policy",
+      "ogTitle": "Privacy Policy - Vision Business",
+      "ogDescription": "How we protect your personal data in our loan and financing services"
     },
-    "loanTerms": {
-      "title": "Loan Terms",
-      "content": "Amounts, durations, and interest rates are determined based on your profile and communicated before any signature. Repayments must be made according to the agreed schedule."
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "tableOfContents": "Table of Contents",
+    "section1": {
+      "title": "Introduction and scope",
+      "content1": "At Vision Business, the protection of your personal data is an absolute priority. This privacy policy describes how we collect, use, share and protect your information in the context of our financial services.",
+      "content2": "This policy applies to all services offered by Vision Business, including online loan applications, account management, and any interaction with our platform."
     },
-    "latePayments": {
-      "title": "Late Payments",
-      "content": "Late payment penalties may apply for missed deadlines. Collection fees may be incurred in case of payment default."
+    "section2": {
+      "title": "Collected data",
+      "personalData": {
+        "title": "Personal data",
+        "content": "We collect the following data:",
+        "identity": "Identity information: name, first name, date of birth, ID document",
+        "contact": "Contact details: address, email, phone",
+        "financial": "Financial information: income, employment, credit history",
+        "banking": "Banking data: statements, IBAN, account information",
+        "technical": "Technical data: IP address, logs, cookies"
+      },
+      "sensitiveData": {
+        "title": "Sensitive data",
+        "content": "In accordance with regulations, we do not collect sensitive data (racial origin, political opinions, religious beliefs, etc.) except for explicit legal obligation."
+      }
     },
-    "termination": {
-      "title": "Termination",
-      "content": "We reserve the right to suspend or terminate your access in case of terms violation or fraudulent behavior."
+    "section3": {
+      "title": "Processing purposes",
+      "content": "Your data is used for the following purposes:",
+      "purpose1": "Loan study and granting",
+      "purpose2": "Customer relationship management",
+      "purpose3": "Fraud and money laundering prevention",
+      "purpose4": "Regulatory compliance",
+      "purpose5": "Service improvement",
+      "purpose6": "Marketing communication (with consent)",
+      "purpose7": "Transaction security"
+    },
+    "section4": {
+      "title": "Legal basis for processing",
+      "content1": "The processing of your data is based on the following legal grounds:",
+      "legal1": "Contract execution for providing our financial services",
+      "legal2": "Legal obligation regarding fraud and money laundering prevention",
+      "legal3": "Legitimate interest for service improvement",
+      "legal4": "Explicit consent for marketing communications"
+    },
+    "section5": {
+      "title": "Data sharing",
+      "recipients": {
+        "title": "Data recipients",
+        "content": "Your data may be shared with:",
+        "regulators": "Regulatory and tax authorities",
+        "partners": "Financial partners and insurers",
+        "auditors": "Auditors and legal controllers",
+        "serviceProviders": "Technical service providers",
+        "legal": "Judicial authorities upon legal request"
+      },
+      "safeguards": {
+        "title": "Safeguards",
+        "content": "All our partners are contractually bound to respect security standards equivalent to ours and can only use your data for specified purposes."
+      }
+    },
+    "section6": {
+      "title": "International transfers",
+      "content1": "Your data is mainly processed and stored in the Democratic Republic of Congo. In the exceptional case of international transfer, we ensure that:",
+      "condition1": "The country benefits from an adequacy decision",
+      "condition2": "Standard contractual clauses are implemented",
+      "condition3": "Appropriate technical and organizational security measures are applied"
+    },
+    "section7": {
+      "title": "Data retention",
+      "content1": "We retain your data for the duration necessary for the purposes for which they were collected, in accordance with legal obligations:",
+      "duration1": "Prospect data: 3 years after last contact",
+      "duration2": "Customer data: contract duration + 5 years",
+      "duration3": "Accounting data: 10 years",
+      "duration4": "Fraud prevention data: 5 years",
+      "content2": "After these periods, data is either archived in accordance with the law, anonymized for statistical studies, or securely destroyed."
+    },
+    "section8": {
+      "title": "Individual rights",
+      "rights": {
+        "title": "Your rights",
+        "content": "In accordance with data protection regulations, you have the following rights:",
+        "access": "Right to access your data",
+        "rectification": "Right to rectification",
+        "erasure": "Right to erasure (\"right to be forgotten\")",
+        "limitation": "Right to restriction of processing",
+        "portability": "Right to data portability",
+        "opposition": "Right to object",
+        "withdraw": "Right to withdraw your consent"
+      },
+      "exercise": {
+        "title": "Exercising your rights",
+        "content": "To exercise your rights, you can:",
+        "email": "Contact us at privacy@visionbusiness.com",
+        "portal": "Use your online customer space",
+        "postal": "Write to us at our headquarters postal address",
+        "response": "We commit to respond within a maximum period of one month. In case of complexity, this period may be extended by two additional months."
+      }
+    },
+    "section9": {
+      "title": "Data security",
+      "content1": "We implement appropriate technical and organizational measures to protect your data against any unauthorized access, modification, disclosure or destruction.",
+      "content2": "These measures include:",
+      "measure1": "Encryption of sensitive data",
+      "measure2": "Role-based access control",
+      "measure3": "Regular security audits",
+      "measure4": "Staff training on data protection",
+      "measure5": "Secure backups and continuity plan"
+    },
+    "section10": {
+      "title": "Cookies and similar technologies",
+      "content": "We use cookies to improve your user experience, analyze traffic and personalize content. You can control cookies through your browser settings. Our detailed cookie policy is available in your account preferences."
+    },
+    "section11": {
+      "title": "Policy modifications",
+      "content": "We reserve the right to modify this privacy policy to reflect legal, regulatory or technical developments. Important modifications will be notified to you by email or via a prominent notice on our platform."
+    },
+    "questions": {
+      "title": "Questions about privacy?",
+      "content": "Our Data Protection Officer (DPO) is at your disposal for any question regarding the protection of your personal data."
+    },
+    "buttons": {
+      "contact": "Contact our DPO",
+      "terms": "Terms and conditions"
     }
   },
   "compliance": {
+    "seo": {
+      "title": "Regulatory Compliance - Vision Business | Financial Regulation DRC",
+      "description": "Vision Business regulatory compliance policy. Discover our commitment for transparent and compliant financial services in Democratic Republic of Congo.",
+      "keywords": "regulatory compliance, financial regulation, BCC DRC, anti-fraud, KYC, AML, Vision Business compliance, AML-CFT",
+      "ogTitle": "Regulatory Compliance - Vision Business",
+      "ogDescription": "Our commitment for transparent financial services compliant with DRC regulations"
+    },
     "title": "Regulatory Compliance",
-    "introduction": "Vision Business Microfinance operates in compliance with Ivorian laws and regulations regarding microfinance.",
-    "regulatory": {
-      "title": "Regulatory Framework",
-      "content": "We are governed by law n° 2013-690 of December 30, 2013 relating to microfinance institutions in Ivory Coast and supervised by the Central Bank of West African States (BCEAO)."
+    "subtitle": "Our commitment for transparent and compliant financial services",
+    "tableOfContents": "Table of Contents",
+    "section1": {
+      "title": "Compliance commitment",
+      "content1": "Vision Business places regulatory compliance at the heart of its activities. We are committed to strictly respect all applicable laws and regulations in the financial sector in Democratic Republic of Congo.",
+      "content2": "Our compliance program is supervised by an independent Compliance Officer who reports directly to the Board of Directors."
     },
-    "consumerProtection": {
-      "title": "Consumer Protection",
-      "content": "We commit to respecting principles of transparency, fairness, and accountability in all our customer relationships."
+    "section2": {
+      "title": "Regulatory framework",
+      "regulations": {
+        "title": "Applicable regulations",
+        "content": "Our activities are governed by the following main regulations:",
+        "law1": "Law on credit institutions and financial establishments",
+        "law2": "Regulations of the Central Bank of Congo (BCC)",
+        "law3": "Law on anti-money laundering and counter-terrorism financing",
+        "law4": "Consumer protection law",
+        "law5": "Personal data protection regulation",
+        "law6": "Commercial obligations code"
+      },
+      "supervision": {
+        "title": "Supervision",
+        "content": "Vision Business is supervised by the Central Bank of Congo (BCC) and undergoes regular inspections to ensure compliance with our regulatory obligations."
+      }
     },
-    "complaints": {
-      "title": "Complaints",
-      "content": "For any complaints, contact our customer service. For unresolved disputes, you may refer to the competent regulatory authority."
-    }
-  },
-  "cookies": {
-    "title": "Cookie Policy",
-    "introduction": "Our website uses cookies to improve your user experience.",
-    "types": {
-      "title": "Cookie Types",
-      "content": "We use essential cookies for functionality, analytics cookies to understand site usage, and preference cookies to remember your choices."
+    "section3": {
+      "title": "Anti-money laundering (AML-CFT)",
+      "amlPolicy": {
+        "title": "AML-CFT Policy",
+        "content": "Our anti-money laundering and counter-terrorism financing policy includes:",
+        "measure1": "Thorough verification of customer identity (KYC)",
+        "measure2": "Continuous transaction monitoring",
+        "measure3": "Detection of suspicious operations",
+        "measure4": "Reporting to competent authorities",
+        "measure5": "Customer risk classification",
+        "measure6": "Embargo and sanctions lists"
+      },
+      "obligations": {
+        "title": "Vigilance obligations",
+        "content": "We are required to know our customers, monitor their transactions, retain documents for 5 years, and report any suspicious operation to the National Financial Intelligence Processing Unit (CENTIF)."
+      }
     },
-    "management": {
-      "title": "Cookie Management",
-      "content": "You can control cookies through your browser settings. Disabling essential cookies may affect website functionality."
+    "section4": {
+      "title": "KYC Compliance",
+      "content": "Our \"Know Your Customer\" (KYC) process includes three levels of diligence:",
+      "kyc1": "Simplified diligence for low-risk products",
+      "kyc2": "Standard diligence for majority of customers",
+      "kyc3": "Enhanced diligence for high-risk customers (PEP, sensitive sectors)",
+      "footer": "We systematically verify the identity, address, professional activity and source of funds of our customers."
+    },
+    "section5": {
+      "title": "Consumer protection",
+      "content1": "We are committed to providing clear, complete and transparent information to our customers:",
+      "protection1": "Transparent communication of rates and fees",
+      "protection2": "Clear explanation of contract terms",
+      "protection3": "Respect of right of withdrawal when applicable",
+      "protection4": "Fair treatment of complaints",
+      "protection5": "Protection against over-indebtedness"
+    },
+    "section6": {
+      "title": "Ethics and integrity",
+      "content1": "All Vision Business employees are required to respect our Code of Ethics and Conduct which includes:",
+      "ethics1": "Prohibition of conflicts of interest",
+      "ethics2": "Respect of information confidentiality",
+      "ethics3": "Prohibition of corruption and bribery",
+      "ethics4": "Fairness and non-discrimination",
+      "ethics5": "Transparency in business relationships"
+    },
+    "section7": {
+      "title": "Monitoring and reporting",
+      "content": "Our monitoring system includes regular internal audits, automated transaction controls, and quarterly reports to the Board of Directors on compliance matters."
+    },
+    "section8": {
+      "title": "Training and awareness",
+      "content": "All employees receive mandatory annual training on regulatory compliance, anti-money laundering, and data protection. Commercial teams benefit from additional training on consumer protection."
+    },
+    "section9": {
+      "title": "Irregularity reporting",
+      "content1": "We encourage the reporting of any irregularity or unethical behavior through our dedicated and confidential channel.",
+      "content2": "Reports can be made anonymously and are protected against retaliation in accordance with our whistleblower protection policy."
+    },
+    "questions": {
+      "title": "Questions about compliance?",
+      "content": "Our compliance team is at your disposal for any question regarding our regulatory policies and procedures."
+    },
+    "buttons": {
+      "contact": "Contact compliance",
+      "terms": "Terms and conditions"
     }
   }
 }

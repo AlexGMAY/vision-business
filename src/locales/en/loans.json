@@ -259,7 +259,111 @@
         "2": "Identity documents",
         "3": "Proof of social coverage"
       }
+    },
+    "startup": {
+      "title": "Startup Loan",
+      "subtitle": "Launch your business with peace of mind",
+      "description": "Specialized financing for new businesses and startups with personalized support and conditions adapted to emerging projects.",
+      "amount": "50,000 to 500,000 FC",
+      "interestRate": "9.9% fixed rate",
+      "term": "6 to 18 months",
+      "features": {
+        "0": "Business creation support",
+        "1": "3-month grace period",
+        "2": "Business plan support included",
+        "3": "Monthly personalized follow-up"
+      },
+      "eligibility": {
+        "0": "Business less than 2 years old",
+        "1": "Viable business plan",
+        "2": "No credit history required",
+        "3": "Project located in DRC"
+      },
+      "documents": {
+        "0": "Detailed business plan",
+        "1": "Director's identity document",
+        "2": "Proof of residence",
+        "3": "Project leader's CV"
+      }
+    },
+    "growth": {
+      "title": "Growth Loan",
+      "subtitle": "Develop your existing business",
+      "description": "Financing dedicated to the expansion of established businesses: recruitment, new markets, increased production capacity.",
+      "amount": "200,000 to 2,000,000 FC",
+      "interestRate": "8.9% fixed rate",
+      "term": "12 to 24 months",
+      "features": {
+        "0": "Higher amounts",
+        "1": "Repayment flexibility",
+        "2": "Possible automatic renewal",
+        "3": "Access to our business network"
+      },
+      "eligibility": {
+        "0": "Business operational for 2+ years",
+        "1": "Stable revenue",
+        "2": "Detailed growth plan",
+        "3": "Guarantees based on amount"
+      },
+      "documents": {
+        "0": "Annual accounts for last 2 years",
+        "1": "6 months bank statements",
+        "2": "Development plan",
+        "3": "Updated statutes"
+      }
+    },    
+    "cashflow": {
+      "title": "Cash Flow Loan",
+      "subtitle": "Optimize your working capital",
+      "description": "Quick financing to cover your cash flow needs: inventory, customer receivables, current expenses, and business opportunities.",
+      "amount": "50,000 to 800,000 FC",
+      "interestRate": "10.9% fixed rate",
+      "term": "3 to 12 months",
+      "features": {
+        "0": "Funding within 24h",
+        "1": "Flexible monthly repayment",
+        "2": "Simplified renewal",
+        "3": "No real estate guarantee required"
+      },
+      "eligibility": {
+        "0": "Business active for 6+ months",
+        "1": "Justified cash flow need",
+        "2": "Repayment capacity",
+        "3": "Regular tax situation"
+      },
+      "documents": {
+        "0": "3 months bank statements",
+        "1": "Customer receivables statement",
+        "2": "Cash flow budget",
+        "3": "Tax declaration"
+      }
+    },    
+    "women": {
+      "title": "Special Women's Loan",
+      "subtitle": "Support for women's entrepreneurship",
+      "description": "Program dedicated to women entrepreneurs with advantageous conditions, enhanced support and a mentorship network.",
+      "amount": "50,000 to 1,000,000 FC",
+      "interestRate": "7.9% fixed rate",
+      "term": "6 to 24 months",
+      "features": {
+        "0": "Preferential women's rate",
+        "1": "Mentorship program included",
+        "2": "Adapted grace period",
+        "3": "Women entrepreneurs network"
+      },
+      "eligibility": {
+        "0": "Women entrepreneur or business owner",
+        "1": "Viable and innovative project",
+        "2": "Commitment to development",
+        "3": "Resident in DRC"
+      },
+      "documents": {
+        "0": "Identity document",
+        "1": "Detailed business plan",
+        "2": "Proof of activity",
+        "3": "Motivation letter"
+      }
     }
-      
-  }
+  }      
+  
 }

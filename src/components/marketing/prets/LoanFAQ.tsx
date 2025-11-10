@@ -53,7 +53,7 @@ export const LoanFAQ: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className={`text-3xl md:text-4xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+          <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
             {t('prets', 'faq.title') || 'Questions fréquentes'}
           </h2>
           <p className={`text-xl max-w-2xl mx-auto ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
@@ -141,17 +141,19 @@ export const LoanFAQ: React.FC = () => {
                 {t('prets', 'faq.help.description') || 'Notre équipe est là pour vous répondre'}
               </p>
             </div>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className={`px-6 py-3 rounded-xl font-bold transition-all duration-200 ${
-                isDark
-                  ? 'bg-blue-600 hover:bg-blue-700 text-white'
-                  : 'bg-blue-600 hover:bg-blue-700 text-white'
-              }`}
-            >
-              <Link href={'/contact'}>{t('prets', 'faq.help.button') || 'Nous contacter'}</Link>
-            </motion.button>
+            <Link href={'/contact'}>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className={`px-6 py-3 rounded-xl font-bold transition-all duration-200 ${
+                  isDark
+                    ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                    : 'bg-blue-600 hover:bg-blue-700 text-white'
+                }`}
+              >
+                {t('prets', 'faq.help.button') || 'Nous contacter'}
+              </motion.button>
+            </Link>
           </div>
         </motion.div>
       </div>

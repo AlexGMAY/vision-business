@@ -90,6 +90,96 @@
       "description": "Our team is here to answer your questions",
       "button": "Contact Us"
     }
+  },
+  "eligibility": {
+    "title": "Check Your Eligibility",
+    "subtitle": "Answer 5 questions to discover loans tailored to your profile",
+    "progress": "Question {{current}} of {{total}}",
+    "previous": "Previous",
+    "restart": "Start Over",
+    "questions": {
+      "0": {
+        "text": "What is your main profile?"
+      },
+      "1": {
+        "text": "Has your business been operating for more than 2 years?"
+      },
+      "2": {
+        "text": "Do you have regular and stable income?"
+      },
+      "3": {
+        "text": "Do you want to finance specific equipment?"
+      },
+      "4": {
+        "text": "Do you need this financing quickly?"
+      }
+    },
+    "answers": {
+      "entrepreneur": "Entrepreneur/Business Owner",
+      "particulier": "Individual/Freelancer",
+      "plus2ans": "Yes, more than 2 years",
+      "moins2ans": "No, less than 2 years",
+      "stable": "Yes, stable income",
+      "irregular": "No, irregular income",
+      "equipment": "Yes, for equipment",
+      "cashflow": "No, for cash flow",
+      "urgent": "Yes, within 48h",
+      "planning": "No, I'm planning ahead",
+      "explanation": {
+        "yes": "Choose this option if it applies to your situation",
+        "no": "Choose this option if it does not apply to your situation"
+      }
+    },
+    "results": {
+      "title": "Recommended Loans For You",
+      "subtitle": "Based on your answers, we've selected {{count}} loans suited to your profile",
+      "apply": "Discover This Loan",
+      "restart": "Retake the Test"
+    }
+  },
+  "successStories": {
+    "title": "Success Stories",
+    "subtitle": "Discover how our clients transformed their projects into success",
+    "amount": "Amount",
+    "duration": "Term",
+    "results": "Achieved Results",
+    "metrics": {
+      "roi": "ROI",
+      "emplois créés": "Jobs Created",
+      "chiffre d'affaires": "Revenue",
+      "productivité": "Productivity",
+      "surface cultivée": "Cultivated Area",
+      "exportations": "Exports",
+      "clients/mois": "Clients/Month",
+      "employées femmes": "Women Employees"
+    },
+    "cta": {
+      "title": "Ready to write your success story?",
+      "subtitle": "Join our thousands of satisfied clients",
+      "button": "Start My Application"
+    }
+  },
+  "calculator": {
+    "title": "Loan Calculator",
+    "subtitle": "Calculate your monthly payments and visualize your repayment plan",
+    "parameters": "Loan Parameters",
+    "loanType": "Loan Type",
+    "amount": "Loan Amount",
+    "interestRate": "Interest Rate",
+    "term": "Loan Term",
+    "months": "6 months",
+    "monthsShort": "months",
+    "years": "7 years",
+    "results": "Simulation Results",
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalAmount": "Total Amount",
+    "amortization": "Amortization Schedule Preview",
+    "month": "Month",
+    "principal": "Principal",
+    "interest": "Interest",
+    "balance": "Balance",
+    "applyNow": "Apply for this Loan"
   }
 
 }
