@@ -65,9 +65,12 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <>
-        <InternalHero
-            title="Obtenez votre prêt"
-            subtitle="Notre engagement à respecter les régulations" 
+        <InternalHero 
+          titleKey="loanApplication"
+          subtitleKey="loanApplication"
+          // backgroundImage="/images/application-hero.jpg"
+          ctaKey="startApplication"
+          ctaLink="#application-form"
         />
         <ApplicationLayout />
     </>

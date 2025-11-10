@@ -1,24 +1,53 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useComponentTranslation } from '@/lib/i18n/component-helpers'
 
 interface InternalHeroProps {
-  title: string
+  title?: string
+  titleKey?: string
   subtitle?: string
+  subtitleKey?: string
   backgroundImage?: string
   overlay?: boolean
   ctaText?: string
+  ctaKey?: string
   ctaLink?: string
 }
 
 export function InternalHero({ 
   title, 
+  titleKey,
   subtitle, 
+  subtitleKey,
   backgroundImage = '/images/enterprise-interior.jpg',
   overlay = true,
   ctaText,
+  ctaKey,
   ctaLink 
 }: InternalHeroProps) {
+  const { getHeroTranslation } = useComponentTranslation()
+
+  const { displayTitle, displaySubtitle, displayCtaText } = getHeroTranslation({
+    titleKey,
+    title,
+    subtitleKey,
+    subtitle,
+    ctaKey,
+    ctaText
+  })
+
+  // Debug: Log if we're using fallbacks (remove in production)
+  if (titleKey && !displayTitle) {
+    console.warn(`Translation key not found: internalHero.titles.${titleKey}`);
+  }
+  if (subtitleKey && !displaySubtitle) {
+    console.warn(`Translation key not found: internalHero.subtitles.${subtitleKey}`);
+  }
+  if (ctaKey && !displayCtaText) {
+    console.warn(`Translation key not found: internalHero.cta.${ctaKey}`);
+  }
+
   return (
     <section className="relative h-96 md:h-[500px] overflow-hidden">
       {/* Image de fond */}
@@ -49,21 +78,21 @@ export function InternalHero({
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              {title}
+              {displayTitle}
             </motion.h1>
             
-            {subtitle && (
+            {displaySubtitle && (
               <motion.p 
                 className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.8 }}
               >
-                {subtitle}
+                {displaySubtitle}
               </motion.p>
             )}
 
-            {ctaText && ctaLink && (
+            {displayCtaText && ctaLink && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -73,7 +102,7 @@ export function InternalHero({
                   href={ctaLink}
                   className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  {ctaText}
+                  {displayCtaText}
                 </a>
               </motion.div>
             )}

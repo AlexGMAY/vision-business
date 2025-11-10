@@ -10,11 +10,10 @@ const page = () => {
   return (
     <div>
       <InternalHero 
-        title="Comment ca marche chez Vision Business"
-        subtitle="Notre processus en 4 étapes simples a été conçu pour vous offrir une expérience de financement rapide, transparente et sans stress."
-        // backgroundImage="/images/about-hero-bg.jpg"
-        // ctaText="Découvrir Notre Équipe"
-        // ctaLink="#leadership"
+        titleKey="howitworks"
+        subtitleKey="howitworks"
+        ctaKey="learnMore"
+        ctaLink="#process"
       />
       <Process />
       <FAQ />

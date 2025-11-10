@@ -35,11 +35,9 @@ export default function PretsPage() {
   return (
     <div className="min-h-screen">
       <InternalHero 
-        title="Nos Solutions de Financement"
-        subtitle="Des prêts adaptés à chaque projet, avec des conditions transparentes 
-          et un accompagnement personnalisé."
-        // backgroundImage="/images/about-hero-bg.jpg"
-        ctaText="Voir tous nos prêts"
+        titleKey="loans"
+        subtitleKey="loans"
+        ctaKey="seeAllLoans"
         ctaLink="#prets"
       />
       

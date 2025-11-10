@@ -1,0 +1,38 @@
+{
+  "internalHero": {
+    "titles": {
+      "about": "À Propos de Vision Business",
+      "loans": "Nos Solutions de Financement",
+      "howitworks": "Comment ça marche chez Vision Business",
+      "loanDetails": "Prenez le prêt parfait pour réaliser vos projets",
+      "loanApplication": "Demande de Prêt en Ligne",
+      "contact": "Contactez-Nous",
+      "conditions": "Conditions Générales d'Utilisation",
+      "privacy": "Politique de Confidentialité",
+      "compliance": "Conformité Réglementaire"
+    },
+    "subtitles": {
+      "about": "Découvrez notre histoire, notre mission et notre équipe dévouée",
+      "loans": "Des prêts adaptés à chaque projet, avec des conditions transparentes et un accompagnement personnalisé",
+      "howitworks": "Notre processus en 4 étapes simples a été conçu pour vous offrir une expérience de financement rapide, transparente et sans stress",
+      "loanDetails": "Des solutions de financement innovantes conçues pour propulser votre entreprise vers de nouveaux sommets de réussite et de croissance durable",
+      "loanApplication": "Soumettez votre demande en quelques minutes et obtenez une réponse rapide pour concrétiser vos projets avec notre processus de financement simplifié et sécurisé",
+      "contact": "Nous sommes là pour répondre à toutes vos questions",
+      "conditions": "Les règles qui régissent notre relation",
+      "privacy": "Découvrez comment nous protégeons vos données",
+      "compliance": "Notre engagement pour des services transparents et conformes"
+    },
+    "cta": {
+      "learnMore": "En savoir plus",
+      "getStarted": "Commencer",
+      "contactUs": "Nous contacter",
+      "applyNow": "Postuler maintenant",
+      "discover": "Découvrir",
+      "seeOurTeam": "Voir notre équipe",
+      "seeAllLoans": "Voir tous nos prêts",
+      "startApplication": "Commencer ma demande",
+      "readConditions": "Lire les conditions",
+      "viewPrivacy": "Voir la politique"
+    }
+  }
+}

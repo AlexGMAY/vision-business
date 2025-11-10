@@ -29,9 +29,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function ConditionsPage() {
   return (
     <>
-      <InternalHero
-        title="Conditions Générales"
-        subtitle="Les règles qui régissent notre relation" 
+      <InternalHero 
+        titleKey="conditions"
+        subtitleKey="conditions"
+        // backgroundImage="/images/legal-hero.jpg"
+        // ctaKey="readConditions"
+        // ctaLink="#content"
       />
       <ConditionsContent />
     </>

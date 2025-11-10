@@ -11,10 +11,9 @@ export default function ContactPage() {
     <div className="min-h-screen">
       {/* En-tête */}
      <InternalHero 
-        title="Contactez-Nous"
-        subtitle="Notre équipe est à votre écoute pour concrétiser vos projets"
-        backgroundImage="/images/entreprise-color.jpg"
-        ctaText="Demander un Rappel"
+        titleKey="contact"
+        subtitleKey="contact"
+        ctaKey="contactUs"
         ctaLink="#contact-form"
       />
       <ContactSection />

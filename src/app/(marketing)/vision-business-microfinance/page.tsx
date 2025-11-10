@@ -10,12 +10,11 @@ import { CorporateSocialResponsibility } from '@/components/marketing/about/Corp
 
 export default function page() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen">      
       <InternalHero 
-        title="À Propos de Vision Business"
-        subtitle="Notre Histoire, Notre Mission, Votre Réussite"
-        // backgroundImage="/images/about-hero-bg.jpg"
-        ctaText="Découvrir Notre Équipe"
+        titleKey="about"
+        subtitleKey="about"
+        ctaKey="seeOurTeam"
         ctaLink="#leadership"
       />
       <OurStory />

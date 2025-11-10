@@ -31,8 +31,11 @@ export default function ConformitePage() {
   return (
     <>
       <InternalHero 
-        title="Conformité Réglementaire"
-        subtitle="Notre engagement à respecter les régulations"
+        titleKey="compliance"
+        subtitleKey="compliance"
+        // backgroundImage="/images/compliance-hero.jpg"
+        // ctaKey="learnMore"
+        // ctaLink="#content"
       />
       <ConformiteContent />
     </>

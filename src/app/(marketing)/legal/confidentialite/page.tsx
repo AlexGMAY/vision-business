@@ -30,10 +30,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function ConfidentialitePage() {
   return (
     <>
-     <InternalHero
-        title="Politique de Confidentialité"
-        subtitle="Comment nous protégeons vos données" 
-     />
+     <InternalHero 
+        titleKey="privacy"
+        subtitleKey="privacy"
+        // backgroundImage="/images/privacy-hero.jpg"
+        // ctaKey="viewPrivacy"
+        // ctaLink="#content"
+      />
       <ConfidentialiteContent />
     </>
   );

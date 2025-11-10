@@ -1,0 +1,38 @@
+{
+  "internalHero": {
+    "titles": {
+      "about": "About Vision Business",
+      "loans": "Our Financing Solutions",
+      "howitworks": "How It Works at Vision Business",
+      "loanDetails": "Get the Perfect Loan to Realize Your Projects",
+      "loanApplication": "Online Loan Application",
+      "contact": "Contact Us",
+      "conditions": "Terms and Conditions of Use",
+      "privacy": "Privacy Policy",
+      "compliance": "Regulatory Compliance"
+    },
+    "subtitles": {
+      "about": "Discover our story, our mission and our dedicated team",
+      "loans": "Loans tailored to each project, with transparent conditions and personalized support",
+      "howitworks": "Our 4-step simple process was designed to offer you a fast, transparent and stress-free financing experience",
+      "loanDetails": "Innovative financing solutions designed to propel your business to new heights of success and sustainable growth",
+      "loanApplication": "Submit your application in minutes and get a quick response to materialize your projects with our simplified and secure financing process",
+      "contact": "We are here to answer all your questions",
+      "conditions": "The rules that govern our relationship",
+      "privacy": "Discover how we protect your data",
+      "compliance": "Our commitment to transparent and compliant services"
+    },
+    "cta": {
+      "learnMore": "Learn more",
+      "getStarted": "Get started",
+      "contactUs": "Contact us",
+      "applyNow": "Apply now",
+      "discover": "Discover",
+      "seeOurTeam": "See our team",
+      "seeAllLoans": "See all our loans",
+      "startApplication": "Start my application",
+      "readConditions": "Read conditions",
+      "viewPrivacy": "View policy"
+    }
+  }
+}
